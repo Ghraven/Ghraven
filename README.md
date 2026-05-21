@@ -96,8 +96,8 @@ I actively contribute to Python open source projects — fixing bugs, adding fea
 My own **[python-utils-toolkit](https://github.com/Ghraven/python-utils-toolkit)** repo was built entirely through PRs — 16 merged across 15 modules — showing the same contribution workflow I use upstream: scoped commits, changelogs, and full test coverage.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-93-blue?style=flat-square" alt="PRs opened" />
-  <img src="https://img.shields.io/badge/Merged-21-brightgreen?style=flat-square" alt="Merged" />
+  <img src="https://img.shields.io/badge/PRs_opened-96-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/Merged-22-brightgreen?style=flat-square" alt="Merged" />
   <img src="https://img.shields.io/badge/Repos_contributed-20-orange?style=flat-square" alt="Repos contributed" />
   <img src="https://img.shields.io/badge/Contributed_to_repos_with-623k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
