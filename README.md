@@ -96,10 +96,10 @@ I actively contribute to Python open source projects — fixing bugs, adding fea
 My own **[python-utils-toolkit](https://github.com/Ghraven/python-utils-toolkit)** repo was built entirely through PRs — 16 merged across 15 modules — showing the same contribution workflow I use upstream: scoped commits, changelogs, and full test coverage.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-99-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/PRs_opened-104-blue?style=flat-square" alt="PRs opened" />
   <img src="https://img.shields.io/badge/Merged-22-brightgreen?style=flat-square" alt="Merged" />
-  <img src="https://img.shields.io/badge/Repos_contributed-22-orange?style=flat-square" alt="Repos contributed" />
-  <img src="https://img.shields.io/badge/Contributed_to_repos_with-784k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
+  <img src="https://img.shields.io/badge/Repos_contributed-24-orange?style=flat-square" alt="Repos contributed" />
+  <img src="https://img.shields.io/badge/Contributed_to_repos_with-882k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
 
 **Repos I've contributed to:**
@@ -108,13 +108,14 @@ My own **[python-utils-toolkit](https://github.com/Ghraven/python-utils-toolkit)
 |---|---|
 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) ⭐76k | Configurable news fetch parameters (applied by maintainer) · Renamed social_media_analyst → sentiment_analyst with backward-compat alias (applied by maintainer) · Code reviews on API key error handling and investment horizon feature |
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐160k | Replaced deprecated `datetime.utcnow()` in BlueBubbles temp GUID generation with timezone-aware UTC timestamps |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) ⭐95k | Replaced deprecated naive `datetime.utcnow()` config timestamps with timezone-aware UTC and added a regression test |
 | [ccxt/ccxt](https://github.com/ccxt/ccxt) ⭐42k | Fixed `watch_orders` message hash bug in GRVT exchange |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) ⭐137k | Fixed `HuggingFaceEndpoint` `_stream` and `_astream` not passing `model=self.model` — streaming always used the wrong default model |
 | [microsoft/autogen](https://github.com/microsoft/autogen) ⭐58k | Added `encoding='utf-8'` to `open()` calls in GAIA benchmark scripts to fix `UnicodeDecodeError` on non-English Windows |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) ⭐55k | Fixed `parse_vision_messages` crash when message content is a text-only list of parts · Fixed `_update_memory()` silently dropping all custom metadata on every update — now overlays changes onto full existing payload (sync + async) |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) ⭐51k | Fixed class-level `@persist()` doc example · Fixed Bedrock streaming tool args always receiving `{}` · Replaced deprecated `datetime.utcnow()` across memory subsystem (4 files, 9 call sites) · Added explicit `encoding="utf-8"` to text-mode `open()` calls across CLI and `crewai_core` (12 sites, 5 files) |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) ⭐52k | Fixed class-level `@persist()` doc example · Fixed Bedrock streaming tool args always receiving `{}` · Replaced deprecated `datetime.utcnow()` across memory subsystem (4 files, 9 call sites) · Added explicit `encoding="utf-8"` to text-mode `open()` calls across CLI and `crewai_core` (12 sites, 5 files) · Switched async execution paths to `asyncio.get_running_loop()` |
 | [run-llama/llama_index](https://github.com/run-llama/llama_index) ⭐49k | Set inner OpenAI client `max_retries=0` to prevent `AuthenticationError` from being silently retried · Added explicit `encoding="utf-8"` to 10 text-mode `open()` call sites across `llama-index-core` — including the bundled system-header markdown template loader, the v1→v2 upgrade CLI's notebook reader/writer, `QueryResponseDataset.save_json`/`from_json`, and the embeddings save/load helpers (4 files, 10 sites) |
-| [agno-agi/agno](https://github.com/agno-agi/agno) ⭐40k | Fixed `Team` never injecting `LearningMachine` context into its system prompt · Fixed `Message.from_dict()` not parsing JSON-stringified list content from Postgres · Replaced deprecated `datetime.utcnow()` in `DecisionLogStore` with timezone-aware alternative · Added explicit `encoding="utf-8"` to text-mode `open()` calls across models/os/tools/db/utils (11 sites, 5 files) |
+| [agno-agi/agno](https://github.com/agno-agi/agno) ⭐40k | Fixed `Team` never injecting `LearningMachine` context into its system prompt · Fixed `Message.from_dict()` not parsing JSON-stringified list content from Postgres · Replaced deprecated `datetime.utcnow()` in `DecisionLogStore` and the dynamic tools cookbook with timezone-aware alternatives · Added explicit `encoding="utf-8"` to text-mode `open()` calls across models/os/tools/db/utils (11 sites, 5 files) |
 | [openai/openai-python](https://github.com/openai/openai-python) ⭐31k | Extended `SensitiveHeadersFilter` to redact API keys appearing as formatted strings in debug log messages · Added explicit `utf-8` encoding to `.txt` reads · Switched async helpers to `asyncio.get_running_loop()` |
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) ⭐17k | Added explicit `encoding="utf-8"` to both `open()` call sites in `scripts/scrub_cassette.py` — the VCR cassette redaction script now round-trips multilingual test fixtures safely on Windows / non-utf-8 locales |
 | [chroma-core/chroma](https://github.com/chroma-core/chroma) ⭐28k | Fixed `collection.modify(metadata=...)` replacing entire metadata dict instead of merging · Narrowed bare `# type: ignore` to `# type: ignore[misc]` on tenacity `@retry` · Added explicit `encoding="utf-8"` to 7 text-mode `open()` call sites in `chromadb` — telemetry user-id store, auth credential/config loaders, CLI log-config loader, and embedding-function schema loaders (5 files, 7 sites) |
@@ -127,6 +128,7 @@ My own **[python-utils-toolkit](https://github.com/Ghraven/python-utils-toolkit)
 | [Noble-Lab/casanovo](https://github.com/Noble-Lab/casanovo) ⭐185 | Fixed `val_check_interval` float/int · Improved README (grammar, badges, quick start, application area descriptions) · Write mzTab output with explicit `utf-8` encoding |
 | [IN3PIRE/pn](https://github.com/IN3PIRE/pn) | Added `!uptime` command ✅ merged · Pinned dependencies ✅ merged |
 | [darkzOGx/youtube-automation-agent](https://github.com/darkzOGx/youtube-automation-agent) ⭐1k | Added missing `database/init.js` entrypoint so the existing `npm run db:init` script initializes the SQLite schema successfully |
+| [caamer20/Telegram-Drive](https://github.com/caamer20/Telegram-Drive) ⭐3k | Removed committed npm cache artifacts and ignored future `.npm-cache` output to keep Windows checkouts portable |
 | [tecnolgd/repoScanner](https://github.com/tecnolgd/repoScanner) | Expanded language detection to 40+ file extensions ✅ merged |
 
 ---
