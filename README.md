@@ -102,7 +102,17 @@ My own **[python-utils-toolkit](https://github.com/Ghraven/python-utils-toolkit)
   <img src="https://img.shields.io/badge/Contributed_to_repos_with-888k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
 
-**Repos I've contributed to:**
+**Contribution highlights:**
+
+- Fixed real bugs and edge cases across AI agent frameworks, SDKs, trading tools, and data infrastructure repos.
+- Contributed to high-signal projects including LangChain, LlamaIndex, AutoGen, CrewAI, Mem0, Agno, OpenAI Python, Chroma, CCXT, and Ollama Python.
+- Repeated focus areas: Python 3.12 deprecations, Windows/non-UTF-8 compatibility, async event-loop correctness, schema edge cases, metadata preservation, and focused test coverage.
+- Several contributions have been merged, including fixes in Casanovo, Opensre, Articraft, PN, and RepoScanner.
+
+<details>
+<summary><strong>View all 24 contributed repositories</strong></summary>
+
+<br>
 
 | Repository | What I worked on |
 |---|---|
@@ -130,6 +140,8 @@ My own **[python-utils-toolkit](https://github.com/Ghraven/python-utils-toolkit)
 | [darkzOGx/youtube-automation-agent](https://github.com/darkzOGx/youtube-automation-agent) ⭐1k | Added missing `database/init.js` entrypoint so the existing `npm run db:init` script initializes the SQLite schema successfully |
 | [caamer20/Telegram-Drive](https://github.com/caamer20/Telegram-Drive) ⭐3k | Removed committed npm cache artifacts and ignored future `.npm-cache` output to keep Windows checkouts portable |
 | [tecnolgd/repoScanner](https://github.com/tecnolgd/repoScanner) | Expanded language detection to 40+ file extensions ✅ merged |
+
+</details>
 
 ---
 
