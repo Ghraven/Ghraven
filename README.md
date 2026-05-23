@@ -41,7 +41,7 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 
 ### 🚀 Featured Projects
 
-**[🏠 Agent Meeting Room](https://github.com/Ghraven/agent-meeting-room)** &nbsp;·&nbsp; `Python` `Flask` `Ollama` `Claude API`
+**[🏠 Agent Meeting Room](https://github.com/GhravenLabs/Agent-Meeting-Room)** &nbsp;·&nbsp; `Python` `Flask` `Ollama` `Claude API`
 > A web app where you @mention AI agents to bring them into a live group chat.
 > Built end-to-end: Flask backend, SSE streaming, local model routing, Claude API integration, debate mode, and persistent Obsidian memory.
 > Runs any **Ollama-compatible model** — defaults use sub-8B models so it works on modest hardware, but swap in anything your GPU can handle.
@@ -56,7 +56,7 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 > 6 self-contained agents, 10 slash commands, token-efficient by design — nearly zero API spent on coordination.
 > Inspired by Claude-Code-Game-Studios, rebuilt from scratch for solo devs on limited API budgets.
 
-**[🛠️ Python Utils Toolkit](https://github.com/Ghraven/python-utils-toolkit)** &nbsp;·&nbsp; `Python` `stdlib`
+**[🛠️ Python Utils Toolkit](https://github.com/GhravenLabs/python-utils-toolkit)** &nbsp;·&nbsp; `Python` `stdlib`
 > 15 production-ready utility modules — retry with backoff, async rate limiter, TTL cache, HMAC/crypto helpers, file I/O, and more.
 > Pure Python, zero heavy dependencies. Built iteratively with **16 PRs merged** — full test suite, versioned releases, and changelogs.
 > Used internally across the trading bot, agent room, and automation pipelines.
@@ -86,11 +86,17 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 
 ---
 
+### 🏢 Organization
+
+My projects live under **[GhravenLabs](https://github.com/GhravenLabs)** — an org for the tools and automation systems I build.
+
+---
+
 ### 🔀 Open Source Contributions
 
 I actively contribute to Python open source projects — fixing bugs, adding features, improving test coverage, and refactoring shared logic across AI, trading, and developer tooling repos.
 
-My own **[python-utils-toolkit](https://github.com/Ghraven/python-utils-toolkit)** repo was built entirely through PRs — 16 merged across 15 modules — showing the same contribution workflow I use upstream: scoped commits, changelogs, and full test coverage.
+My own **[python-utils-toolkit](https://github.com/GhravenLabs/python-utils-toolkit)** repo was built entirely through PRs — 16 merged across 15 modules — showing the same contribution workflow I use upstream: scoped commits, changelogs, and full test coverage.
 
 I try to make maintainer review easy: small scoped PRs, clear before/after notes, local verification, and humble follow-up when CI or reviewers ask for changes.
 
@@ -109,7 +115,7 @@ I try to make maintainer review easy: small scoped PRs, clear before/after notes
 | [Mem0 metadata preservation fix](https://github.com/mem0ai/mem0/pull/5179) | Stops memory updates from silently dropping existing custom metadata |
 | [CCXT GRVT `watch_orders` fix](https://github.com/ccxt/ccxt/pull/28462) | Fixes a real streaming message hash bug in an exchange integration |
 | [OpenAI Python log redaction hardening](https://github.com/openai/openai-python/pull/3200) | Improves API-key redaction when sensitive headers appear in formatted debug strings |
-| [Python Utils Toolkit built through PRs](https://github.com/Ghraven/python-utils-toolkit/pulls?q=is%3Apr+is%3Amerged) | 16 merged PRs across 15 stdlib-only utility modules with tests and changelogs |
+| [Python Utils Toolkit built through PRs](https://github.com/GhravenLabs/python-utils-toolkit/pulls?q=is%3Apr+is%3Amerged) | 16 merged PRs across 15 stdlib-only utility modules with tests and changelogs |
 
 **How I work:**
 
