@@ -18,11 +18,11 @@
 
 ### 👤 About me
 
-I graduated in Information Technology but coding took a back seat for years — I spent time in office automation, content review, and sales work. Coding felt like a hobby with no real direction, so I stepped away.
+I graduated in Information Technology, stepped away from coding for a while, then came back when AI made building feel possible, practical, and exciting again.
 
-Then AI arrived and everything changed. Suddenly I could build things that actually worked, learn while I built, and have an assistant that helped me push through the hard parts. That reignited everything. Now I spend my time building real AI tools — not just following tutorials, but shipping things I actually want to use.
+Now I build real AI tools — local LLM apps, automation pipelines, multi-agent systems, and developer utilities I actually use. I learn fastest by shipping, reading real codebases, and working through maintainer feedback in public.
 
-I'm not a career developer with years of job history. I'm someone who came back to coding with a clear reason, and I think the projects show that.
+I'm looking for junior Python, AI automation, developer tooling, or open-source-adjacent roles where I can build practical tools, write tests, and keep improving inside a strong engineering team.
 
 ---
 
@@ -36,6 +36,7 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 
 **[🏠 Agent Meeting Room](https://github.com/Ghraven/agent-meeting-room)** &nbsp;·&nbsp; `Python` `Flask` `Ollama` `Claude API`
 > A web app where you @mention AI agents to bring them into a live group chat.
+> Built end-to-end: Flask backend, SSE streaming, local model routing, Claude API integration, debate mode, and persistent Obsidian memory.
 > Runs any **Ollama-compatible model** — defaults use sub-8B models so it works on modest hardware, but swap in anything your GPU can handle.
 > Includes structured **debate mode** (3 rounds), **free-talk streaming** via SSE, and **Obsidian memory** integration.
 
@@ -94,6 +95,8 @@ Small standalone scripts and utilities I've published.
 I actively contribute to Python open source projects — fixing bugs, adding features, improving test coverage, and refactoring shared logic across AI, trading, and developer tooling repos.
 
 My own **[python-utils-toolkit](https://github.com/Ghraven/python-utils-toolkit)** repo was built entirely through PRs — 16 merged across 15 modules — showing the same contribution workflow I use upstream: scoped commits, changelogs, and full test coverage.
+
+I try to make maintainer review easy: small scoped PRs, clear before/after notes, local verification, and humble follow-up when CI or reviewers ask for changes.
 
 <p align="left">
   <img src="https://img.shields.io/badge/PRs_opened-109-blue?style=flat-square" alt="PRs opened" />
