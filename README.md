@@ -1,12 +1,19 @@
 <h1 align="center">Hi 👋, I'm Rolly Calma</h1>
 <h3 align="center">AI Builder · Python Developer · Multi-Agent Systems</h3>
-<p align="center"><strong>🟢 Open to work — remote or Philippines-based</strong></p>
+<p align="center"><strong>🟢 Open to junior Python, AI automation, developer tooling, or open-source support roles — remote or Philippines-based</strong></p>
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ghraven&label=Profile%20views&color=0e75b6&style=flat" alt="ghraven" />
   &nbsp;
   <a href="https://ghraven.github.io" target="blank">
     <img src="https://img.shields.io/badge/🌐_Portfolio-ghraven.github.io-0e75b6?style=flat-square&logo=github" alt="Portfolio" />
   </a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/AI_Agents-111827?style=flat-square" alt="AI Agents" />
+  <img src="https://img.shields.io/badge/Open_Source-2ea44f?style=flat-square&logo=github&logoColor=white" alt="Open Source" />
+  <img src="https://img.shields.io/badge/Local_LLMs-0e75b6?style=flat-square" alt="Local LLMs" />
+  <img src="https://img.shields.io/badge/Testing-6f42c1?style=flat-square" alt="Testing" />
 </p>
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
@@ -61,17 +68,6 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 
 ---
 
-### 📌 Gists
-
-Small standalone scripts and utilities I've published.
-
-| Gist | Description |
-|---|---|
-| [🎮 Discord Quest Completer v2](https://gist.github.com/Ghraven/5f8dc950b8835e091e26a9d155598cc9) | Improved fork of aamiaa's script — completes all active quests, progress bar + ETA, auto-resume, color-coded console output |
-| [🔧 Python Utilities](https://gist.github.com/Ghraven/2550f83090b8c6d51964cecf2668786f) | Retry decorator with exponential backoff + rate limiter — pure stdlib, no deps, used in trading bots and AI agents |
-
----
-
 ### 🌱 Currently exploring
 
 - Voice interfaces for local AI — Whisper STT + Piper/Kokoro TTS + Ollama (JARVIS-style assistant)
@@ -105,12 +101,26 @@ I try to make maintainer review easy: small scoped PRs, clear before/after notes
   <img src="https://img.shields.io/badge/Contributed_to_repos_with-888k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
 
-**Contribution highlights:**
+**Selected wins:**
 
-- Fixed real bugs and edge cases across AI agent frameworks, SDKs, trading tools, and data infrastructure repos.
-- Contributed to high-signal projects including LangChain, LlamaIndex, AutoGen, CrewAI, Mem0, Agno, OpenAI Python, Chroma, CCXT, and Ollama Python.
-- Repeated focus areas: Python 3.12 deprecations, Windows/non-UTF-8 compatibility, async event-loop correctness, schema edge cases, metadata preservation, and focused test coverage.
-- Several contributions have been merged, including fixes in Casanovo, Opensre, Articraft, PN, and RepoScanner.
+| Work | Why it matters |
+|---|---|
+| [Casanovo UTF-8 mzTab/file I/O fixes](https://github.com/Noble-Lab/casanovo/pull/640) ✅ merged | Prevents locale-dependent file errors on Windows/non-UTF-8 systems |
+| [Mem0 metadata preservation fix](https://github.com/mem0ai/mem0/pull/5179) | Stops memory updates from silently dropping existing custom metadata |
+| [CCXT GRVT `watch_orders` fix](https://github.com/ccxt/ccxt/pull/28462) | Fixes a real streaming message hash bug in an exchange integration |
+| [OpenAI Python log redaction hardening](https://github.com/openai/openai-python/pull/3200) | Improves API-key redaction when sensitive headers appear in formatted debug strings |
+| [Python Utils Toolkit built through PRs](https://github.com/Ghraven/python-utils-toolkit/pulls?q=is%3Apr+is%3Amerged) | 16 merged PRs across 15 stdlib-only utility modules with tests and changelogs |
+
+**How I work:**
+
+- Prefer small, scoped PRs with clear before/after examples.
+- Test locally before pushing, then follow up when CI or reviewers find issues.
+- Look for practical fixes: deprecations, encoding bugs, async edge cases, schema correctness, and missing tests.
+- Stay humble in review and make maintainer work easier where I can.
+
+**Contribution coverage:**
+
+I have contributed across AI agent frameworks, SDKs, trading tools, data infrastructure, and developer tooling, including LangChain, LlamaIndex, AutoGen, CrewAI, Mem0, Agno, OpenAI Python, Chroma, CCXT, and Ollama Python.
 
 <details>
 <summary><strong>View all 24 contributed repositories</strong></summary>
@@ -145,6 +155,17 @@ I try to make maintainer review easy: small scoped PRs, clear before/after notes
 | [tecnolgd/repoScanner](https://github.com/tecnolgd/repoScanner) | Expanded language detection to 40+ file extensions ✅ merged |
 
 </details>
+
+---
+
+### 📌 Gists
+
+Small standalone scripts and utilities I've published.
+
+| Gist | Description |
+|---|---|
+| [🎮 Discord Quest Completer v2](https://gist.github.com/Ghraven/5f8dc950b8835e091e26a9d155598cc9) | Improved fork of aamiaa's script — completes all active quests, progress bar + ETA, auto-resume, color-coded console output |
+| [🔧 Python Utilities](https://gist.github.com/Ghraven/2550f83090b8c6d51964cecf2668786f) | Retry decorator with exponential backoff + rate limiter — pure stdlib, no deps, used in trading bots and AI agents |
 
 ---
 
