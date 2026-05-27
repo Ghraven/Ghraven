@@ -101,10 +101,10 @@ My own **[python-utils-toolkit](https://github.com/GhravenLabs/python-utils-tool
 I try to make maintainer review easy: small scoped PRs, clear before/after notes, local verification, and humble follow-up when CI or reviewers ask for changes.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-123-blue?style=flat-square" alt="PRs opened" />
-  <img src="https://img.shields.io/badge/Merged-25-brightgreen?style=flat-square" alt="Merged" />
-  <img src="https://img.shields.io/badge/Repos_contributed-24-orange?style=flat-square" alt="Repos contributed" />
-  <img src="https://img.shields.io/badge/Contributed_to_repos_with-888k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
+  <img src="https://img.shields.io/badge/PRs_opened-125-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/Merged-26-brightgreen?style=flat-square" alt="Merged" />
+  <img src="https://img.shields.io/badge/Repos_contributed-26-orange?style=flat-square" alt="Repos contributed" />
+  <img src="https://img.shields.io/badge/Contributed_to_repos_with-898k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
 
 **Selected wins:**
@@ -129,16 +129,16 @@ I try to make maintainer review easy: small scoped PRs, clear before/after notes
 I have contributed across AI agent frameworks, SDKs, trading tools, data infrastructure, and developer tooling, including LangChain, LlamaIndex, AutoGen, CrewAI, Mem0, Agno, OpenAI Python, Chroma, CCXT, and Ollama Python.
 
 <details>
-<summary><strong>View all 24 contributed repositories</strong></summary>
+<summary><strong>View contributed repositories</strong></summary>
 
 <br>
 
 | Repository | What I worked on |
 |---|---|
 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) ⭐76k | Configurable news fetch parameters (applied by maintainer) · Renamed social_media_analyst → sentiment_analyst with backward-compat alias (applied by maintainer) · Code reviews on API key error handling and investment horizon feature |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐160k | Replaced deprecated `datetime.utcnow()` in BlueBubbles temp GUID generation with timezone-aware UTC timestamps |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐169k | Replaced deprecated `datetime.utcnow()` in BlueBubbles temp GUID generation with timezone-aware UTC timestamps |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) ⭐95k | Replaced deprecated naive `datetime.utcnow()` config timestamps with timezone-aware UTC and added a regression test · Wrote generated file-system text files with explicit UTF-8 encoding and switched async disk sync paths to `asyncio.get_running_loop()` · Read CLI command history and local user state files with explicit UTF-8 encoding · Made the news monitor example use explicit UTF-8 JSON I/O and timezone-aware UTC fallback timestamps |
-| [ccxt/ccxt](https://github.com/ccxt/ccxt) ⭐42k | Fixed `watch_orders` message hash bug in GRVT exchange |
+| [ccxt/ccxt](https://github.com/ccxt/ccxt) ⭐42k | Fixed `watch_orders` message hash bug in GRVT exchange · Replaced deprecated `datetime.utcnow()` in Python examples with timezone-aware UTC |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) ⭐137k | Fixed `HuggingFaceEndpoint` `_stream` and `_astream` not passing `model=self.model` — streaming always used the wrong default model |
 | [microsoft/autogen](https://github.com/microsoft/autogen) ⭐58k | Added `encoding='utf-8'` to `open()` calls in GAIA benchmark scripts to fix `UnicodeDecodeError` on non-English Windows · Replaced AutoGen Studio websocket `datetime.utcnow()` response timestamps with timezone-aware UTC |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) ⭐56k | Fixed `parse_vision_messages` crash when message content is a text-only list of parts · Fixed `_update_memory()` silently dropping all custom metadata on every update — now overlays changes onto full existing payload (sync + async) · Added explicit UTF-8 encoding for JSON config and GCP credential file reads/writes |
@@ -150,11 +150,11 @@ I have contributed across AI agent frameworks, SDKs, trading tools, data infrast
 | [chroma-core/chroma](https://github.com/chroma-core/chroma) ⭐28k | Fixed `collection.modify(metadata=...)` replacing entire metadata dict instead of merging · Narrowed bare `# type: ignore` to `# type: ignore[misc]` on tenacity `@retry` · Added explicit `encoding="utf-8"` to 7 text-mode `open()` call sites in `chromadb` — telemetry user-id store, auth credential/config loaders, CLI log-config loader, and embedding-function schema loaders (5 files, 7 sites) |
 | [ollama/ollama-python](https://github.com/ollama/ollama-python) ⭐10k | Added `client.exists()` · Exposed `__version__` and `version()` · Added `Audio` field to `Message` · Added `__enter__`/`__aenter__` context manager support · Fixed `convert_function_to_tool` incorrectly listing default-value params in `required` · Replaced deprecated `datetime.utcnow()` in `web_search_gpt_oss_helper` example (5 sites) |
 | [voxel51/fiftyone](https://github.com/voxel51/fiftyone) ⭐10k | Replaced deprecated `datetime.utcnow()` · Migrated brush import to `label_studio_sdk` · Added `train_extra` split to Cityscapes loader |
-| [apache/burr](https://github.com/apache/burr) ⭐1.9k | Fixed `stream_type` type annotation to accept union of BaseModel types in `streaming_action.pydantic()` · Replaced deprecated `datetime.utcnow()` in S3 partition · Added explicit `utf-8` to text-mode file I/O and generated test-case JSON files · Read and write local tracking annotation JSONL files with explicit UTF-8 encoding |
+| [apache/burr](https://github.com/apache/burr) ⭐2k | Fixed `stream_type` type annotation to accept union of BaseModel types in `streaming_action.pydantic()` · Replaced deprecated `datetime.utcnow()` in S3 partition · Added explicit `utf-8` to text-mode file I/O and generated test-case JSON files · Read/write local tracking annotation JSONL files and graph JSON with explicit UTF-8 encoding |
 | [mattzh72/articraft](https://github.com/mattzh72/articraft) ⭐801 | Added `encoding="utf-8"` to the 9 `aiofiles.open()` call sites across agent code-manipulation tools (`read_file`, `write_code`, `edit_code`, `apply_patch`) and the harness final-code reader — prevents `UnicodeDecodeError` on Windows / non-utf-8 locales when reading or re-reading agent-generated Python files with non-ASCII content ✅ merged |
 | [camel-ai/oasis](https://github.com/camel-ai/oasis) ⭐4.5k | Fixed `KeyError: 'post_id'` in `rec_sys_personalized_with_trace` — trace rows store post_id in `info` JSON, not as a top-level column · Added explicit `encoding="utf-8"` to all 16 SQL schema loaders in `social_platform/database.py` |
 | [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) ⭐3.6k | Unit tests ✅ merged · Shared helpers · Refactoring · Docs · Telegram integration guide · LLM providers reference · Snowflake/OpenObserve/OpenSearch tool tests · Early-exit integration validation · Post-signup onboarding page |
-| [Noble-Lab/casanovo](https://github.com/Noble-Lab/casanovo) ⭐186 | Fixed `val_check_interval` float/int · Improved README (grammar, badges, quick start, application area descriptions) · Write mzTab output with explicit `utf-8` encoding ✅ merged |
+| [Noble-Lab/casanovo](https://github.com/Noble-Lab/casanovo) ⭐187 | Fixed `val_check_interval` float/int · Improved README (grammar, badges, quick start, application area descriptions) · Read YAML configs and write mzTab output with explicit `utf-8` encoding |
 | [IN3PIRE/pn](https://github.com/IN3PIRE/pn) | Added `!uptime` command ✅ merged · Pinned dependencies ✅ merged |
 | [darkzOGx/youtube-automation-agent](https://github.com/darkzOGx/youtube-automation-agent) ⭐1k | Added missing `database/init.js` entrypoint so the existing `npm run db:init` script initializes the SQLite schema successfully |
 | [caamer20/Telegram-Drive](https://github.com/caamer20/Telegram-Drive) ⭐3k | Removed committed npm cache artifacts and ignored future `.npm-cache` output to keep Windows checkouts portable |
