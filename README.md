@@ -15,12 +15,6 @@
   <img src="https://img.shields.io/badge/Local_LLMs-0e75b6?style=flat-square" alt="Local LLMs" />
   <img src="https://img.shields.io/badge/Testing-6f42c1?style=flat-square" alt="Testing" />
 </p>
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=ghraven&theme=flat&no-frame=true&column=6" alt="ghraven" />
-  </a>
-</p>
-
 ---
 
 ### 👤 About me
