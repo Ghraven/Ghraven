@@ -101,10 +101,10 @@ My own **[python-utils-toolkit](https://github.com/GhravenLabs/python-utils-tool
 I try to make maintainer review easy: small scoped PRs, clear before/after notes, local verification, and humble follow-up when CI or reviewers ask for changes.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-128-blue?style=flat-square" alt="PRs opened" />
-  <img src="https://img.shields.io/badge/Merged-27-brightgreen?style=flat-square" alt="Merged" />
+  <img src="https://img.shields.io/badge/PRs_opened-130-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/Merged-31-brightgreen?style=flat-square" alt="Merged" />
   <img src="https://img.shields.io/badge/Repos_contributed-26-orange?style=flat-square" alt="Repos contributed" />
-  <img src="https://img.shields.io/badge/Contributed_to_repos_with-903k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
+  <img src="https://img.shields.io/badge/Contributed_to_repos_with-904k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
 
 **Selected wins:**
@@ -138,7 +138,7 @@ I have contributed across AI agent frameworks, SDKs, trading tools, data infrast
 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) ⭐80k | Configurable news fetch parameters (applied by maintainer) · Renamed social_media_analyst → sentiment_analyst with backward-compat alias (applied by maintainer) · Code reviews on API key error handling and investment horizon feature |
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐170k | Replaced deprecated `datetime.utcnow()` in BlueBubbles temp GUID generation with timezone-aware UTC timestamps |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) ⭐95k | Replaced deprecated naive `datetime.utcnow()` config timestamps with timezone-aware UTC and added a regression test · Wrote generated file-system text files with explicit UTF-8 encoding and switched async disk sync paths to `asyncio.get_running_loop()` · Read CLI command history and local user state files with explicit UTF-8 encoding · Made the news monitor example use explicit UTF-8 JSON I/O and timezone-aware UTC fallback timestamps |
-| [ccxt/ccxt](https://github.com/ccxt/ccxt) ⭐42k | Fixed `watch_orders` message hash bug in GRVT exchange · Replaced deprecated `datetime.utcnow()` in Python examples with timezone-aware UTC · Switched a pro close async test to the active running loop · Modernized Python async examples to use `asyncio.run()` instead of removed/manual loop APIs |
+| [ccxt/ccxt](https://github.com/ccxt/ccxt) ⭐42k | Fixed `watch_orders` message hash bug in GRVT exchange · Replaced deprecated `datetime.utcnow()` in Python examples with timezone-aware UTC · Switched a pro close async test to the active running loop · Modernized Python async examples to use `asyncio.run()` instead of removed/manual loop APIs and keep websocket examples on one event loop |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) ⭐137k | Fixed `HuggingFaceEndpoint` `_stream` and `_astream` not passing `model=self.model` — streaming always used the wrong default model |
 | [microsoft/autogen](https://github.com/microsoft/autogen) ⭐58k | Added `encoding='utf-8'` to `open()` calls in GAIA benchmark scripts to fix `UnicodeDecodeError` on non-English Windows · Replaced AutoGen Studio websocket `datetime.utcnow()` response timestamps with timezone-aware UTC |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) ⭐56k | Fixed `parse_vision_messages` crash when message content is a text-only list of parts · Fixed `_update_memory()` silently dropping all custom metadata on every update — now overlays changes onto full existing payload (sync + async) · Added explicit UTF-8 encoding for JSON config and GCP credential file reads/writes |
@@ -157,7 +157,7 @@ I have contributed across AI agent frameworks, SDKs, trading tools, data infrast
 | [Noble-Lab/casanovo](https://github.com/Noble-Lab/casanovo) ⭐187 | Fixed `val_check_interval` float/int · Improved README (grammar, badges, quick start, application area descriptions) · Read YAML configs and write mzTab output with explicit `utf-8` encoding |
 | [IN3PIRE/pn](https://github.com/IN3PIRE/pn) | Added `!uptime` command ✅ merged · Pinned dependencies ✅ merged |
 | [darkzOGx/youtube-automation-agent](https://github.com/darkzOGx/youtube-automation-agent) ⭐1k | Added missing `database/init.js` entrypoint so the existing `npm run db:init` script initializes the SQLite schema successfully |
-| [caamer20/Telegram-Drive](https://github.com/caamer20/Telegram-Drive) ⭐3k | Removed committed npm cache artifacts and ignored future `.npm-cache` output to keep Windows checkouts portable · Added a safe theme fallback when `localStorage` is unavailable |
+| [caamer20/Telegram-Drive](https://github.com/caamer20/Telegram-Drive) ⭐3k | Removed committed npm cache artifacts and ignored future `.npm-cache` output to keep Windows checkouts portable · Added a safe theme fallback when `localStorage` is unavailable · Guarded global search against empty Telegram document payloads |
 | [tecnolgd/repoScanner](https://github.com/tecnolgd/repoScanner) | Expanded language detection to 40+ file extensions ✅ merged |
 
 </details>
