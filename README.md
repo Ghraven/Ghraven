@@ -101,10 +101,10 @@ My own **[python-utils-toolkit](https://github.com/GhravenLabs/python-utils-tool
 I try to make maintainer review easy: small scoped PRs, clear before/after notes, local verification, and humble follow-up when CI or reviewers ask for changes.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-141-blue?style=flat-square" alt="PRs opened" />
-  <img src="https://img.shields.io/badge/Merged-39-brightgreen?style=flat-square" alt="Merged" />
+  <img src="https://img.shields.io/badge/PRs_opened-144-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/Merged-42-brightgreen?style=flat-square" alt="Merged" />
   <img src="https://img.shields.io/badge/Repos_contributed-28-orange?style=flat-square" alt="Repos contributed" />
-  <img src="https://img.shields.io/badge/Contributed_to_repos_with-950k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
+  <img src="https://img.shields.io/badge/Contributed_to_repos_with-966k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
 
 **Selected wins:**
