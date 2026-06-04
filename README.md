@@ -101,10 +101,10 @@ My own **[python-utils-toolkit](https://github.com/GhravenLabs/python-utils-tool
 I try to make maintainer review easy: small scoped PRs, clear before/after notes, local verification, and humble follow-up when CI or reviewers ask for changes.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-144-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/PRs_opened-148-blue?style=flat-square" alt="PRs opened" />
   <img src="https://img.shields.io/badge/Merged-42-brightgreen?style=flat-square" alt="Merged" />
   <img src="https://img.shields.io/badge/Repos_contributed-28-orange?style=flat-square" alt="Repos contributed" />
-  <img src="https://img.shields.io/badge/Contributed_to_repos_with-966k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
+  <img src="https://img.shields.io/badge/Contributed_to_repos_with-974k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
 
 **Selected wins:**
@@ -156,10 +156,10 @@ I have contributed across AI agent frameworks, SDKs, trading tools, data infrast
 | [mattzh72/articraft](https://github.com/mattzh72/articraft) ⭐801 | Added `encoding="utf-8"` to the 9 `aiofiles.open()` call sites across agent code-manipulation tools (`read_file`, `write_code`, `edit_code`, `apply_patch`) and the harness final-code reader — prevents `UnicodeDecodeError` on Windows / non-utf-8 locales when reading or re-reading agent-generated Python files with non-ASCII content ✅ merged |
 | [camel-ai/oasis](https://github.com/camel-ai/oasis) ⭐4.5k | Fixed `KeyError: 'post_id'` in `rec_sys_personalized_with_trace` — trace rows store post_id in `info` JSON, not as a top-level column · Added explicit `encoding="utf-8"` to all 16 SQL schema loaders in `social_platform/database.py` |
 | [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) ⭐3.6k | Unit tests ✅ merged · Shared helpers · Refactoring · Docs · Telegram integration guide · LLM providers reference · Snowflake/OpenObserve/OpenSearch tool tests · Early-exit integration validation · Post-signup onboarding page |
-| [Noble-Lab/casanovo](https://github.com/Noble-Lab/casanovo) ⭐187 | Fixed `val_check_interval` float/int · Improved README (grammar, badges, quick start, application area descriptions) · Read YAML configs and write mzTab output with explicit `utf-8` encoding |
+| [Noble-Lab/casanovo](https://github.com/Noble-Lab/casanovo) ⭐187 | Fixed `val_check_interval` float/int · Improved README (grammar, badges, quick start, application area descriptions) · Read YAML configs and write mzTab output with explicit `utf-8` encoding · Bounded URL-based model weight HEAD/download requests with a shared timeout |
 | [IN3PIRE/pn](https://github.com/IN3PIRE/pn) | Added `!uptime` command ✅ merged · Pinned dependencies ✅ merged |
 | [darkzOGx/youtube-automation-agent](https://github.com/darkzOGx/youtube-automation-agent) ⭐1k | Added missing `database/init.js` entrypoint so the existing `npm run db:init` script initializes the SQLite schema successfully |
-| [caamer20/Telegram-Drive](https://github.com/caamer20/Telegram-Drive) ⭐3k | Removed committed npm cache artifacts and ignored future `.npm-cache` output to keep Windows checkouts portable · Added a safe theme fallback when `localStorage` is unavailable · Guarded global search against empty Telegram document payloads |
+| [caamer20/Telegram-Drive](https://github.com/caamer20/Telegram-Drive) ⭐3k | Removed committed npm cache artifacts and ignored future `.npm-cache` output to keep Windows checkouts portable · Added a safe theme fallback when `localStorage` is unavailable · Guarded global search against empty Telegram document payloads · Validated persisted streaming settings before merging localStorage state |
 | [tecnolgd/repoScanner](https://github.com/tecnolgd/repoScanner) | Expanded language detection to 40+ file extensions ✅ merged |
 
 </details>
