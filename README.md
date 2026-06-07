@@ -101,10 +101,10 @@ My own **[python-utils-toolkit](https://github.com/GhravenLabs/python-utils-tool
 I try to make maintainer review easy: small scoped PRs, clear before/after notes, local verification, and humble follow-up when CI or reviewers ask for changes.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-152-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/PRs_opened-158-blue?style=flat-square" alt="PRs opened" />
   <img src="https://img.shields.io/badge/Merged-42-brightgreen?style=flat-square" alt="Merged" />
-  <img src="https://img.shields.io/badge/Repos_contributed-28-orange?style=flat-square" alt="Repos contributed" />
-  <img src="https://img.shields.io/badge/Contributed_to_repos_with-991k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
+  <img src="https://img.shields.io/badge/Repos_contributed-30-orange?style=flat-square" alt="Repos contributed" />
+  <img src="https://img.shields.io/badge/Contributed_to_repos_with-1053k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
 
 **Selected wins:**
@@ -138,6 +138,7 @@ I have contributed across AI agent frameworks, SDKs, trading tools, data infrast
 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) ⭐80k | Configurable news fetch parameters (applied by maintainer) · Renamed social_media_analyst → sentiment_analyst with backward-compat alias (applied by maintainer) · Code reviews on API key error handling and investment horizon feature |
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐170k | Replaced deprecated `datetime.utcnow()` in BlueBubbles temp GUID generation with timezone-aware UTC timestamps |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) ⭐95k | Replaced deprecated naive `datetime.utcnow()` config timestamps with timezone-aware UTC and added a regression test · Wrote generated file-system text files with explicit UTF-8 encoding and switched async disk sync paths to `asyncio.get_running_loop()` · Read CLI command history and local user state files with explicit UTF-8 encoding · Made the news monitor example use explicit UTF-8 JSON I/O and timezone-aware UTC fallback timestamps |
+| [tw93/Pake](https://github.com/tw93/Pake) ⭐50k | Added a missing `cli:dev` script alias, tightened malformed zoom parsing, and made shared CLI numeric validation reject non-finite values like `Infinity` |
 | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) ⭐20k | Added explicit UTF-8 handling for builtin action state/cache files and shell/background job files · Switched async helpers to `asyncio.get_running_loop()` |
 | [ccxt/ccxt](https://github.com/ccxt/ccxt) ⭐42k | Fixed `watch_orders` message hash bug in GRVT exchange · Replaced deprecated `datetime.utcnow()` in Python examples with timezone-aware UTC · Switched a pro close async test to the active running loop · Modernized Python async examples to use `asyncio.run()` instead of removed/manual loop APIs and keep websocket examples on one event loop |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) ⭐137k | Fixed `HuggingFaceEndpoint` `_stream` and `_astream` not passing `model=self.model` — streaming always used the wrong default model |
