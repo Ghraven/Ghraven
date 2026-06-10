@@ -15,12 +15,6 @@
   <img src="https://img.shields.io/badge/Local_LLMs-0e75b6?style=flat-square" alt="Local LLMs" />
   <img src="https://img.shields.io/badge/Testing-6f42c1?style=flat-square" alt="Testing" />
 </p>
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=ghraven&theme=flat&no-frame=true&column=6" alt="ghraven" />
-  </a>
-</p>
-
 ---
 
 ### 👤 About me
@@ -49,7 +43,7 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 
 **[🎬 YT Shorts Autopilot](https://github.com/Ghraven/yt-shorts-autopilot)** &nbsp;·&nbsp; `Python` `FFmpeg` `YouTube API`
 > Automated YouTube Shorts upload pipeline — adds watermark, boosts audio, mixes BGM, then schedules 4 uploads per day at fixed times.
-> Runs on PC startup via Task Scheduler. Uploads even while your PC is off.
+> Runs on PC startup via Task Scheduler. YouTube publishes at the scheduled times — even while your PC is off.
 
 **[🎮 Claude Code Solo Studio](https://github.com/Ghraven/Claude-Code-Solo-Studio)** &nbsp;·&nbsp; `Claude Code` `Godot` `Unity`
 > A lightweight Claude Code template for solo game developers.
@@ -59,12 +53,7 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 **[🛠️ Python Utils Toolkit](https://github.com/GhravenLabs/python-utils-toolkit)** &nbsp;·&nbsp; `Python` `stdlib`
 > 15 production-ready utility modules — retry with backoff, async rate limiter, TTL cache, HMAC/crypto helpers, file I/O, and more.
 > Pure Python, zero heavy dependencies. Built iteratively with **16 PRs merged** — full test suite, versioned releases, and changelogs.
-> Used internally across the trading bot, agent room, and automation pipelines.
-
-**[📈 Crypto Futures Trading Bot](https://github.com/Ghraven)** &nbsp;·&nbsp; `Python` `CCXT` `Claude API` `Ollama`
-> Automated BTC/ETH/BNB/SOL futures trading bot running on GCP Singapore (asia-southeast1).
-> Multi-timeframe analysis (4H trend → 1H confirm → 30M entry → optional 15M fine-entry). Ollama/Mistral pre-screens signals; Claude API makes final confirmation at 72% threshold.
-> SL/TP orders placed directly on Binance for offline protection. Discord webhook alerts. Currently in live testing — repo private.
+> Used internally across the agent room and automation pipelines.
 
 ---
 
@@ -94,7 +83,7 @@ My projects live under **[GhravenLabs](https://github.com/GhravenLabs)** — an 
 
 ### 🔀 Open Source Contributions
 
-I actively contribute to Python open source projects — fixing bugs, adding features, improving test coverage, and refactoring shared logic across AI, trading, and developer tooling repos.
+I actively contribute to Python open source projects — fixing bugs, adding features, improving test coverage, and refactoring shared logic across AI and developer tooling repos.
 
 My own **[python-utils-toolkit](https://github.com/GhravenLabs/python-utils-toolkit)** repo was built entirely through PRs — 16 merged across 15 modules — showing the same contribution workflow I use upstream: scoped commits, changelogs, and full test coverage.
 
@@ -103,8 +92,8 @@ I try to make maintainer review easy: small scoped PRs, clear before/after notes
 <p align="left">
   <img src="https://img.shields.io/badge/PRs_opened-159-blue?style=flat-square" alt="PRs opened" />
   <img src="https://img.shields.io/badge/Merged-42-brightgreen?style=flat-square" alt="Merged" />
-  <img src="https://img.shields.io/badge/Repos_contributed-30-orange?style=flat-square" alt="Repos contributed" />
-  <img src="https://img.shields.io/badge/Contributed_to_repos_with-1063k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
+  <img src="https://img.shields.io/badge/Repos_contributed-28-orange?style=flat-square" alt="Repos contributed" />
+  <img src="https://img.shields.io/badge/Contributed_to_repos_with-941k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
 
 **Selected wins:**
@@ -113,7 +102,7 @@ I try to make maintainer review easy: small scoped PRs, clear before/after notes
 |---|---|
 | [Casanovo UTF-8 mzTab/file I/O fixes](https://github.com/Noble-Lab/casanovo/pull/640) ✅ merged | Prevents locale-dependent file errors on Windows/non-UTF-8 systems |
 | [Mem0 metadata preservation fix](https://github.com/mem0ai/mem0/pull/5179) | Stops memory updates from silently dropping existing custom metadata |
-| [CCXT GRVT `watch_orders` fix](https://github.com/ccxt/ccxt/pull/28462) | Fixes a real streaming message hash bug in an exchange integration |
+| [LangChain `HuggingFaceEndpoint` streaming fix](https://github.com/langchain-ai/langchain) | `_stream`/`_astream` never passed `model=self.model` — streaming silently used the wrong default model |
 | [OpenAI Python log redaction hardening](https://github.com/openai/openai-python/pull/3200) | Improves API-key redaction when sensitive headers appear in formatted debug strings |
 | [Python Utils Toolkit built through PRs](https://github.com/GhravenLabs/python-utils-toolkit/pulls?q=is%3Apr+is%3Amerged) | 16 merged PRs across 15 stdlib-only utility modules with tests and changelogs |
 
@@ -126,7 +115,7 @@ I try to make maintainer review easy: small scoped PRs, clear before/after notes
 
 **Contribution coverage:**
 
-I have contributed across AI agent frameworks, SDKs, trading tools, data infrastructure, and developer tooling, including LangChain, LlamaIndex, AutoGen, CrewAI, Mem0, Agno, OpenAI Python, Chroma, CCXT, and Ollama Python.
+I have contributed across AI agent frameworks, SDKs, data infrastructure, and developer tooling, including LangChain, LlamaIndex, AutoGen, CrewAI, Mem0, Agno, OpenAI Python, Chroma, and Ollama Python.
 
 <details>
 <summary><strong>View contributed repositories</strong></summary>
@@ -135,10 +124,8 @@ I have contributed across AI agent frameworks, SDKs, trading tools, data infrast
 
 | Repository | What I worked on |
 |---|---|
-| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) ⭐80k | Configurable news fetch parameters (applied by maintainer) · Renamed social_media_analyst → sentiment_analyst with backward-compat alias (applied by maintainer) · Code reviews on API key error handling and investment horizon feature |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐188k | Replaced deprecated `datetime.utcnow()` in BlueBubbles temp GUID generation with timezone-aware UTC timestamps · Made the pytest timeout config platform-safe on Windows by letting pytest-timeout choose its supported method |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐188k | Replaced deprecated `datetime.utcnow()` in BlueBubbles temp GUID generation with timezone-aware UTC timestamps |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) ⭐95k | Replaced deprecated naive `datetime.utcnow()` config timestamps with timezone-aware UTC and added a regression test · Wrote generated file-system text files with explicit UTF-8 encoding and switched async disk sync paths to `asyncio.get_running_loop()` · Read CLI command history and local user state files with explicit UTF-8 encoding · Made the news monitor example use explicit UTF-8 JSON I/O and timezone-aware UTC fallback timestamps |
-| [ccxt/ccxt](https://github.com/ccxt/ccxt) ⭐42k | Fixed `watch_orders` message hash bug in GRVT exchange · Replaced deprecated `datetime.utcnow()` in Python examples with timezone-aware UTC · Switched a pro close async test to the active running loop · Modernized Python async examples to use `asyncio.run()` instead of removed/manual loop APIs and keep websocket examples on one event loop |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) ⭐137k | Fixed `HuggingFaceEndpoint` `_stream` and `_astream` not passing `model=self.model` — streaming always used the wrong default model |
 | [microsoft/autogen](https://github.com/microsoft/autogen) ⭐58k | Added `encoding='utf-8'` to `open()` calls in GAIA benchmark scripts to fix `UnicodeDecodeError` on non-English Windows · Replaced AutoGen Studio websocket `datetime.utcnow()` response timestamps with timezone-aware UTC |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) ⭐56k | Fixed `parse_vision_messages` crash when message content is a text-only list of parts · Fixed `_update_memory()` silently dropping all custom metadata on every update — now overlays changes onto full existing payload (sync + async) · Added explicit UTF-8 encoding for JSON config and GCP credential file reads/writes |
@@ -167,12 +154,17 @@ I have contributed across AI agent frameworks, SDKs, trading tools, data infrast
 
 ### 📌 Gists
 
-Small standalone scripts and utilities I've published.
+<details>
+<summary><strong>Small standalone scripts and utilities I've published</strong></summary>
+
+<br>
 
 | Gist | Description |
 |---|---|
 | [🎮 Discord Quest Completer v2](https://gist.github.com/Ghraven/5f8dc950b8835e091e26a9d155598cc9) | Improved fork of aamiaa's script — completes all active quests, progress bar + ETA, auto-resume, color-coded console output |
-| [🔧 Python Utilities](https://gist.github.com/Ghraven/2550f83090b8c6d51964cecf2668786f) | Retry decorator with exponential backoff + rate limiter — pure stdlib, no deps, used in trading bots and AI agents |
+| [🔧 Python Utilities](https://gist.github.com/Ghraven/2550f83090b8c6d51964cecf2668786f) | Retry decorator with exponential backoff + rate limiter — pure stdlib, no deps, used in AI agents and automation pipelines |
+
+</details>
 
 ---
 
@@ -191,7 +183,4 @@ Small standalone scripts and utilities I've published.
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ghraven&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="100%" />
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=ghraven&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
