@@ -90,10 +90,10 @@ My own **[python-utils-toolkit](https://github.com/GhravenLabs/python-utils-tool
 I try to make maintainer review easy: small scoped PRs, clear before/after notes, local verification, and humble follow-up when CI or reviewers ask for changes.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-163-blue?style=flat-square" alt="PRs opened" />
-  <img src="https://img.shields.io/badge/Merged-43-brightgreen?style=flat-square" alt="Merged" />
+  <img src="https://img.shields.io/badge/PRs_opened-165-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/Merged-47-brightgreen?style=flat-square" alt="Merged" />
   <img src="https://img.shields.io/badge/Repos_contributed-30-orange?style=flat-square" alt="Repos contributed" />
-  <img src="https://img.shields.io/badge/Contributed_to_repos_with-1070k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
+  <img src="https://img.shields.io/badge/Contributed_to_repos_with-1075k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
 
 **Selected wins:**
@@ -137,7 +137,8 @@ I have contributed across AI agent frameworks, SDKs, data infrastructure, and de
 | [openai/openai-python](https://github.com/openai/openai-python) ⭐31k | Extended `SensitiveHeadersFilter` to redact API keys appearing as formatted strings in debug log messages · Added explicit `utf-8` encoding to validator `.txt` reads and workload identity token-file reads · Switched async helpers to `asyncio.get_running_loop()` |
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) ⭐17k | Added explicit `encoding="utf-8"` to both `open()` call sites in `scripts/scrub_cassette.py` — the VCR cassette redaction script now round-trips multilingual test fixtures safely on Windows / non-utf-8 locales |
 | [chroma-core/chroma](https://github.com/chroma-core/chroma) ⭐28k | Fixed `collection.modify(metadata=...)` replacing entire metadata dict instead of merging · Narrowed bare `# type: ignore` to `# type: ignore[misc]` on tenacity `@retry` · Added explicit `encoding="utf-8"` to 7 text-mode `open()` call sites in `chromadb` — telemetry user-id store, auth credential/config loaders, CLI log-config loader, and embedding-function schema loaders (5 files, 7 sites) |
-| [reconurge/flowsint](https://github.com/reconurge/flowsint) ⭐3.5k | Replaced naive `datetime.utcnow()` service timestamps with timezone-aware UTC values in analysis, chat, and flow services, plus focused timestamp regression tests |
+| [tw93/Pake](https://github.com/tw93/Pake) ⭐50k | Hardened CLI validation by rejecting malformed, non-finite, and blank numeric option values before they reach app configuration |
+| [reconurge/flowsint](https://github.com/reconurge/flowsint) ⭐6.5k | Replaced naive `datetime.utcnow()` service timestamps with timezone-aware UTC values in analysis, chat, and flow services, plus focused timestamp regression tests · Read YAML templates with explicit UTF-8 encoding |
 | [ollama/ollama-python](https://github.com/ollama/ollama-python) ⭐10k | Added `client.exists()` · Exposed `__version__` and `version()` · Added `Audio` field to `Message` · Added `__enter__`/`__aenter__` context manager support · Fixed `convert_function_to_tool` incorrectly listing default-value params in `required` · Replaced deprecated `datetime.utcnow()` in `web_search_gpt_oss_helper` example (5 sites) |
 | [voxel51/fiftyone](https://github.com/voxel51/fiftyone) ⭐10k | Replaced deprecated `datetime.utcnow()` · Migrated brush import to `label_studio_sdk` · Added `train_extra` split to Cityscapes loader |
 | [apache/burr](https://github.com/apache/burr) ⭐2k | Fixed `stream_type` type annotation to accept union of BaseModel types in `streaming_action.pydantic()` · Replaced deprecated `datetime.utcnow()` in S3 partition · Added explicit `utf-8` to text-mode file I/O and generated test-case JSON files · Read/write local tracking annotation JSONL files and graph JSON with explicit UTF-8 encoding, plus regression coverage for annotations, graph, and children data |
