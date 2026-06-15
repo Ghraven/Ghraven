@@ -90,16 +90,18 @@ My own **[python-utils-toolkit](https://github.com/GhravenLabs/python-utils-tool
 I try to make maintainer review easy: small scoped PRs, clear before/after notes, local verification, and humble follow-up when CI or reviewers ask for changes.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-165-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/PRs_opened-167-blue?style=flat-square" alt="PRs opened" />
   <img src="https://img.shields.io/badge/Merged-47-brightgreen?style=flat-square" alt="Merged" />
-  <img src="https://img.shields.io/badge/Repos_contributed-30-orange?style=flat-square" alt="Repos contributed" />
-  <img src="https://img.shields.io/badge/Contributed_to_repos_with-1075k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
+  <img src="https://img.shields.io/badge/Repos_contributed-29-orange?style=flat-square" alt="Repos contributed" />
+  <img src="https://img.shields.io/badge/Contributed_to_repos_with-1080k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
 
 **Selected wins:**
 
 | Work | Why it matters |
 |---|---|
+| [TradingAgents env debate round preservation](https://github.com/TauricResearch/TradingAgents/pull/1040) | Preserves explicit `TRADINGAGENTS_MAX_*` round settings instead of overwriting them with the interactive research depth |
+| [TradingAgents checkpoint env preservation](https://github.com/TauricResearch/TradingAgents/pull/1041) | Keeps `TRADINGAGENTS_CHECKPOINT_ENABLED` effective when the checkpoint flag is omitted and adds an explicit `--no-checkpoint` override |
 | [Flowsint selected graph JSON export](https://github.com/reconurge/flowsint/pull/189) | Adds a machine-readable export path for selected investigation nodes and their connecting edges |
 | [Casanovo URL model cache TTL](https://github.com/Noble-Lab/casanovo/pull/653) | Avoids redundant remote HEAD requests when cached URL model weights are still fresh |
 | [Casanovo UTF-8 mzTab/file I/O fixes](https://github.com/Noble-Lab/casanovo/pull/640) ✅ merged | Prevents locale-dependent file errors on Windows/non-UTF-8 systems |
@@ -138,6 +140,7 @@ I have contributed across AI agent frameworks, SDKs, data infrastructure, and de
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) ⭐17k | Added explicit `encoding="utf-8"` to both `open()` call sites in `scripts/scrub_cassette.py` — the VCR cassette redaction script now round-trips multilingual test fixtures safely on Windows / non-utf-8 locales |
 | [chroma-core/chroma](https://github.com/chroma-core/chroma) ⭐28k | Fixed `collection.modify(metadata=...)` replacing entire metadata dict instead of merging · Narrowed bare `# type: ignore` to `# type: ignore[misc]` on tenacity `@retry` · Added explicit `encoding="utf-8"` to 7 text-mode `open()` call sites in `chromadb` — telemetry user-id store, auth credential/config loaders, CLI log-config loader, and embedding-function schema loaders (5 files, 7 sites) |
 | [tw93/Pake](https://github.com/tw93/Pake) ⭐50k | Hardened CLI validation by rejecting malformed, non-finite, and blank numeric option values before they reach app configuration |
+| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) ⭐86k | Preserved env-configured debate/risk round settings from CLI research-depth overrides · Preserved `TRADINGAGENTS_CHECKPOINT_ENABLED` when checkpoint flags are omitted |
 | [reconurge/flowsint](https://github.com/reconurge/flowsint) ⭐6.5k | Replaced naive `datetime.utcnow()` service timestamps with timezone-aware UTC values in analysis, chat, and flow services, plus focused timestamp regression tests · Read YAML templates with explicit UTF-8 encoding |
 | [ollama/ollama-python](https://github.com/ollama/ollama-python) ⭐10k | Added `client.exists()` · Exposed `__version__` and `version()` · Added `Audio` field to `Message` · Added `__enter__`/`__aenter__` context manager support · Fixed `convert_function_to_tool` incorrectly listing default-value params in `required` · Replaced deprecated `datetime.utcnow()` in `web_search_gpt_oss_helper` example (5 sites) |
 | [voxel51/fiftyone](https://github.com/voxel51/fiftyone) ⭐10k | Replaced deprecated `datetime.utcnow()` · Migrated brush import to `label_studio_sdk` · Added `train_extra` split to Cityscapes loader |
