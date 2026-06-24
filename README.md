@@ -50,8 +50,12 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 > 6 self-contained agents, 10 slash commands, token-efficient by design — nearly zero API spent on coordination.
 > Inspired by Claude-Code-Game-Studios, rebuilt from scratch for solo devs on limited API budgets.
 
+**[🧪 GhravenLabs Proof Gallery](https://ghravenlabs.github.io/)** &nbsp;·&nbsp; `Python` `JavaScript` `GitHub Pages`
+> Public showcase of small runnable tools: Data Cleaner, WPM Trainer, Website QA Auditor, Mini-RAG, and Steam Free Games Tracker.
+> Each repo includes a screenshot, case study, smoke-check workflow, and clear README so reviewers can inspect the build quickly.
+
 **[🛠️ Python Utils Toolkit](https://github.com/GhravenLabs/python-utils-toolkit)** &nbsp;·&nbsp; `Python` `stdlib`
-> 15 production-ready utility modules — retry with backoff, async rate limiter, TTL cache, HMAC/crypto helpers, file I/O, and more.
+> 15 production-ready utility modules — retry with backoff, async rate limiter, TTL cache, HMAC signing helpers, file I/O, and more.
 > Pure Python, zero heavy dependencies. Built iteratively with **16 PRs merged** — full test suite, versioned releases, and changelogs.
 > Used internally across the agent room and automation pipelines.
 
@@ -100,9 +104,6 @@ I try to make maintainer review easy: small scoped PRs, clear before/after notes
 
 | Work | Why it matters |
 |---|---|
-| [TradingAgents local structured output fix](https://github.com/TauricResearch/TradingAgents/pull/1061) | Keeps LM Studio / local OpenAI-compatible structured output on the typed path by suppressing object-form `tool_choice` |
-| [TradingAgents env debate round preservation](https://github.com/TauricResearch/TradingAgents/pull/1040) | Preserves explicit `TRADINGAGENTS_MAX_*` round settings instead of overwriting them with the interactive research depth |
-| [TradingAgents checkpoint env preservation](https://github.com/TauricResearch/TradingAgents/pull/1041) | Keeps `TRADINGAGENTS_CHECKPOINT_ENABLED` effective when the checkpoint flag is omitted and adds an explicit `--no-checkpoint` override |
 | [Flowsint selected graph JSON export](https://github.com/reconurge/flowsint/pull/189) | Adds a machine-readable export path for selected investigation nodes and their connecting edges |
 | [Casanovo URL model cache TTL](https://github.com/Noble-Lab/casanovo/pull/653) | Avoids redundant remote HEAD requests when cached URL model weights are still fresh |
 | [Casanovo UTF-8 mzTab/file I/O fixes](https://github.com/Noble-Lab/casanovo/pull/640) ✅ merged | Prevents locale-dependent file errors on Windows/non-UTF-8 systems |
@@ -141,7 +142,6 @@ I have contributed across AI agent frameworks, SDKs, data infrastructure, and de
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) ⭐17k | Added explicit `encoding="utf-8"` to both `open()` call sites in `scripts/scrub_cassette.py` — the VCR cassette redaction script now round-trips multilingual test fixtures safely on Windows / non-utf-8 locales · Switched the chat app example to `asyncio.get_running_loop()` inside its async DB context |
 | [chroma-core/chroma](https://github.com/chroma-core/chroma) ⭐28k | Fixed `collection.modify(metadata=...)` replacing entire metadata dict instead of merging · Narrowed bare `# type: ignore` to `# type: ignore[misc]` on tenacity `@retry` · Added explicit `encoding="utf-8"` to 7 text-mode `open()` call sites in `chromadb` · Switched the async FastAPI client cache to `asyncio.get_running_loop()` |
 | [tw93/Pake](https://github.com/tw93/Pake) ⭐50k | Hardened CLI validation by rejecting malformed, non-finite, and blank numeric option values before they reach app configuration |
-| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) ⭐86k | Preserved env-configured debate/risk round settings from CLI research-depth overrides · Preserved `TRADINGAGENTS_CHECKPOINT_ENABLED` when checkpoint flags are omitted · Suppressed object-form `tool_choice` for generic local OpenAI-compatible structured output |
 | [reconurge/flowsint](https://github.com/reconurge/flowsint) ⭐6.8k | Replaced naive `datetime.utcnow()` service timestamps with timezone-aware UTC values in analysis, chat, flow services, core auth expiry, log cutoffs, and Scamalytics fraud-score updates · Read YAML templates with explicit UTF-8 encoding |
 | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) ⭐73k | Read WSL `/proc/version` with explicit UTF-8 handling and switched the health endpoint timestamp to timezone-aware UTC |
 | [ollama/ollama-python](https://github.com/ollama/ollama-python) ⭐10k | Added `client.exists()` · Exposed `__version__` and `version()` · Added `Audio` field to `Message` · Added `__enter__`/`__aenter__` context manager support · Fixed `convert_function_to_tool` incorrectly listing default-value params in `required` · Replaced deprecated `datetime.utcnow()` in `web_search_gpt_oss_helper` example (5 sites) |
