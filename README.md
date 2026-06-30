@@ -94,16 +94,18 @@ My own **[python-utils-toolkit](https://github.com/GhravenLabs/python-utils-tool
 I try to make maintainer review easy: small scoped PRs, clear before/after notes, local verification, and humble follow-up when CI or reviewers ask for changes.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-188-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/PRs_opened-190-blue?style=flat-square" alt="PRs opened" />
   <img src="https://img.shields.io/badge/Merged-56-brightgreen?style=flat-square" alt="Merged" />
-  <img src="https://img.shields.io/badge/Repos_contributed-30-orange?style=flat-square" alt="Repos contributed" />
-  <img src="https://img.shields.io/badge/Contributed_to_repos_with-1116k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
+  <img src="https://img.shields.io/badge/Repos_contributed-29-orange?style=flat-square" alt="Repos contributed" />
+  <img src="https://img.shields.io/badge/Contributed_to_repos_with-1124k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
 
 **Selected wins:**
 
 | Work | Why it matters |
 |---|---|
+| [TradingAgents checkpoint signature fix](https://github.com/TauricResearch/TradingAgents/pull/1106) | Prevents checkpoint resume from silently continuing stale state after graph-shaping run settings change |
+| [YouTube Automation Agent provider validation](https://github.com/darkzOGx/youtube-automation-agent/pull/12) | Lets Gemini and other non-OpenAI setup paths pass credential validation without requiring an OpenAI key |
 | [Flowsint selected graph JSON export](https://github.com/reconurge/flowsint/pull/189) | Adds a machine-readable export path for selected investigation nodes and their connecting edges |
 | [Casanovo URL model cache TTL](https://github.com/Noble-Lab/casanovo/pull/653) | Avoids redundant remote HEAD requests when cached URL model weights are still fresh |
 | [Casanovo UTF-8 mzTab/file I/O fixes](https://github.com/Noble-Lab/casanovo/pull/640) ✅ merged | Prevents locale-dependent file errors on Windows/non-UTF-8 systems |
@@ -142,6 +144,7 @@ I have contributed across AI agent frameworks, SDKs, data infrastructure, and de
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) ⭐17k | Added explicit `encoding="utf-8"` to both `open()` call sites in `scripts/scrub_cassette.py` — the VCR cassette redaction script now round-trips multilingual test fixtures safely on Windows / non-utf-8 locales · Switched the chat app example and tenacity async timing test to `asyncio.get_running_loop()` |
 | [chroma-core/chroma](https://github.com/chroma-core/chroma) ⭐28k | Fixed `collection.modify(metadata=...)` replacing entire metadata dict instead of merging · Narrowed bare `# type: ignore` to `# type: ignore[misc]` on tenacity `@retry` · Added explicit `encoding="utf-8"` to 7 text-mode `open()` call sites in `chromadb` · Switched the async FastAPI client cache to `asyncio.get_running_loop()` |
 | [tw93/Pake](https://github.com/tw93/Pake) ⭐50k | Hardened CLI validation by rejecting malformed, non-finite, and blank numeric option values before they reach app configuration |
+| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) ⭐90k | Preserved env-configured debate/risk round settings and checkpoint settings in the CLI · Included graph-shaping run signatures in checkpoint IDs so changed analyst/config runs do not resume stale state |
 | [reconurge/flowsint](https://github.com/reconurge/flowsint) ⭐6.8k | Replaced naive `datetime.utcnow()` service timestamps with timezone-aware UTC values in analysis, chat, flow services, core auth expiry, log cutoffs, and Scamalytics fraud-score updates · Read YAML templates with explicit UTF-8 encoding |
 | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) ⭐73k | Read WSL `/proc/version` with explicit UTF-8 handling and switched the health endpoint timestamp to timezone-aware UTC |
 | [ollama/ollama-python](https://github.com/ollama/ollama-python) ⭐10k | Added `client.exists()` · Exposed `__version__` and `version()` · Added `Audio` field to `Message` · Added `__enter__`/`__aenter__` context manager support · Fixed `convert_function_to_tool` incorrectly listing default-value params in `required` · Replaced deprecated `datetime.utcnow()` in `web_search_gpt_oss_helper` example (5 sites) |
@@ -152,7 +155,7 @@ I have contributed across AI agent frameworks, SDKs, data infrastructure, and de
 | [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) ⭐3.6k | Unit tests ✅ merged · Shared helpers · Refactoring · Docs · Telegram integration guide · LLM providers reference · Snowflake/OpenObserve/OpenSearch tool tests · Early-exit integration validation · Post-signup onboarding page |
 | [Noble-Lab/casanovo](https://github.com/Noble-Lab/casanovo) ⭐191 | Fixed `val_check_interval` float/int · Improved README (grammar, badges, quick start, application area descriptions) · Read YAML configs and write mzTab output with explicit `utf-8` encoding |
 | [IN3PIRE/pn](https://github.com/IN3PIRE/pn) | Added `!uptime` command ✅ merged · Pinned dependencies ✅ merged |
-| [darkzOGx/youtube-automation-agent](https://github.com/darkzOGx/youtube-automation-agent) ⭐1k | Added missing `database/init.js` entrypoint so the existing `npm run db:init` script initializes the SQLite schema successfully |
+| [darkzOGx/youtube-automation-agent](https://github.com/darkzOGx/youtube-automation-agent) ⭐1k | Added missing `database/init.js` entrypoint so the existing `npm run db:init` script initializes the SQLite schema successfully · Made setup validation respect the selected AI provider so Gemini-only setups do not require an OpenAI key |
 | [caamer20/Telegram-Drive](https://github.com/caamer20/Telegram-Drive) ⭐3k | Removed committed npm cache artifacts and ignored future `.npm-cache` output to keep Windows checkouts portable · Added a safe theme fallback when `localStorage` is unavailable · Guarded global search against empty Telegram document payloads |
 | [tecnolgd/repoScanner](https://github.com/tecnolgd/repoScanner) | Expanded language detection to 40+ file extensions ✅ merged |
 
