@@ -5,7 +5,9 @@
   <img src="https://komarev.com/ghpvc/?username=ghraven&label=Profile%20views&color=0e75b6&style=flat" alt="ghraven" />
   &nbsp;
   <a href="https://ghraven.github.io" target="blank">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-ghraven.github.io-0e75b6?style=flat-square&logo=github" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/🌐_Portfolio-ghraven.github.io-0e75b6?style=flat-square&logo=github" alt="Portfolio" /></a>
+  &nbsp;
+  <a href="https://ghraven.github.io/work" target="blank"><img src="https://img.shields.io/badge/Live_site-services_%2B_demos-2ea44f?style=flat-square" alt="Live site" />
   </a>
 </p>
 <p align="center">
@@ -104,7 +106,6 @@ I try to make maintainer review easy: small scoped PRs, clear before/after notes
 
 | Work | Why it matters |
 |---|---|
-| [TradingAgents checkpoint signature fix](https://github.com/TauricResearch/TradingAgents/pull/1106) | Prevents checkpoint resume from silently continuing stale state after graph-shaping run settings change |
 | [YouTube Automation Agent provider validation](https://github.com/darkzOGx/youtube-automation-agent/pull/12) | Lets Gemini and other non-OpenAI setup paths pass credential validation without requiring an OpenAI key |
 | [Flowsint selected graph JSON export](https://github.com/reconurge/flowsint/pull/189) | Adds a machine-readable export path for selected investigation nodes and their connecting edges |
 | [Casanovo URL model cache TTL](https://github.com/Noble-Lab/casanovo/pull/653) | Avoids redundant remote HEAD requests when cached URL model weights are still fresh |
@@ -144,7 +145,6 @@ I have contributed across AI agent frameworks, SDKs, data infrastructure, and de
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) ⭐17k | Added explicit `encoding="utf-8"` to both `open()` call sites in `scripts/scrub_cassette.py` — the VCR cassette redaction script now round-trips multilingual test fixtures safely on Windows / non-utf-8 locales · Switched the chat app example and tenacity async timing test to `asyncio.get_running_loop()` |
 | [chroma-core/chroma](https://github.com/chroma-core/chroma) ⭐28k | Fixed `collection.modify(metadata=...)` replacing entire metadata dict instead of merging · Narrowed bare `# type: ignore` to `# type: ignore[misc]` on tenacity `@retry` · Added explicit `encoding="utf-8"` to 7 text-mode `open()` call sites in `chromadb` · Switched the async FastAPI client cache to `asyncio.get_running_loop()` |
 | [tw93/Pake](https://github.com/tw93/Pake) ⭐50k | Hardened CLI validation by rejecting malformed, non-finite, and blank numeric option values before they reach app configuration |
-| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) ⭐90k | Preserved env-configured debate/risk round settings and checkpoint settings in the CLI · Included graph-shaping run signatures in checkpoint IDs so changed analyst/config runs do not resume stale state |
 | [reconurge/flowsint](https://github.com/reconurge/flowsint) ⭐6.8k | Replaced naive `datetime.utcnow()` service timestamps with timezone-aware UTC values in analysis, chat, flow services, core auth expiry, log cutoffs, and Scamalytics fraud-score updates · Read YAML templates with explicit UTF-8 encoding |
 | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) ⭐73k | Read WSL `/proc/version` with explicit UTF-8 handling and switched the health endpoint timestamp to timezone-aware UTC |
 | [ollama/ollama-python](https://github.com/ollama/ollama-python) ⭐10k | Added `client.exists()` · Exposed `__version__` and `version()` · Added `Audio` field to `Message` · Added `__enter__`/`__aenter__` context manager support · Fixed `convert_function_to_tool` incorrectly listing default-value params in `required` · Replaced deprecated `datetime.utcnow()` in `web_search_gpt_oss_helper` example (5 sites) |
