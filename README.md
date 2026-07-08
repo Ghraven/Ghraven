@@ -96,10 +96,10 @@ My own **[python-utils-toolkit](https://github.com/GhravenLabs/python-utils-tool
 I try to make maintainer review easy: small scoped PRs, clear before/after notes, local verification, and humble follow-up when CI or reviewers ask for changes.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-193-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/PRs_opened-195-blue?style=flat-square" alt="PRs opened" />
   <img src="https://img.shields.io/badge/Merged-59-brightgreen?style=flat-square" alt="Merged" />
   <img src="https://img.shields.io/badge/Repos_contributed-30-orange?style=flat-square" alt="Repos contributed" />
-  <img src="https://img.shields.io/badge/Contributed_to_repos_with-1136k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
+  <img src="https://img.shields.io/badge/Contributed_to_repos_with-1138k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
 
 **Selected wins:**
@@ -143,7 +143,7 @@ I have contributed across AI agent frameworks, SDKs, data infrastructure, and de
 | [agno-agi/agno](https://github.com/agno-agi/agno) ⭐40k | Fixed `Team` never injecting `LearningMachine` context into its system prompt · Fixed `Message.from_dict()` not parsing JSON-stringified list content from Postgres · Replaced deprecated `datetime.utcnow()` in `DecisionLogStore` and the dynamic tools cookbook with timezone-aware alternatives · Added explicit `encoding="utf-8"` to text-mode `open()` calls across models/os/tools/db/utils and JsonDb files · Switched `YouTubeReader.async_read()` to `asyncio.get_running_loop()` · Read `CsvTools` CSV files with explicit UTF-8 encoding |
 | [openai/openai-python](https://github.com/openai/openai-python) ⭐31k | Extended `SensitiveHeadersFilter` to redact API keys appearing as formatted strings in debug log messages · Added explicit `utf-8` encoding to validator `.txt` reads and workload identity token-file reads · Switched async helpers to `asyncio.get_running_loop()` |
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) ⭐17k | Added explicit `encoding="utf-8"` to both `open()` call sites in `scripts/scrub_cassette.py` — the VCR cassette redaction script now round-trips multilingual test fixtures safely on Windows / non-utf-8 locales · Switched the chat app example and tenacity async timing test to `asyncio.get_running_loop()` |
-| [chroma-core/chroma](https://github.com/chroma-core/chroma) ⭐28k | Fixed `collection.modify(metadata=...)` replacing entire metadata dict instead of merging · Narrowed bare `# type: ignore` to `# type: ignore[misc]` on tenacity `@retry` · Added explicit `encoding="utf-8"` to 7 text-mode `open()` call sites in `chromadb` · Switched the async FastAPI client cache to `asyncio.get_running_loop()` |
+| [chroma-core/chroma](https://github.com/chroma-core/chroma) ⭐28k | Fixed `collection.modify(metadata=...)` replacing entire metadata dict instead of merging · Narrowed bare `# type: ignore` to `# type: ignore[misc]` on tenacity `@retry` · Added explicit `encoding="utf-8"` to 7 text-mode `open()` call sites in `chromadb` · Switched the async FastAPI client cache to `asyncio.get_running_loop()` · Read/write the product telemetry user-id file with explicit UTF-8 encoding |
 | [tw93/Pake](https://github.com/tw93/Pake) ⭐50k | Hardened CLI validation by rejecting malformed, non-finite, and blank numeric option values before they reach app configuration |
 | [reconurge/flowsint](https://github.com/reconurge/flowsint) ⭐6.8k | Replaced naive `datetime.utcnow()` service timestamps with timezone-aware UTC values in analysis, chat, flow services, core auth expiry, log cutoffs, and Scamalytics fraud-score updates · Read YAML templates with explicit UTF-8 encoding |
 | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) ⭐73k | Read WSL `/proc/version` with explicit UTF-8 handling and switched the health endpoint timestamp to timezone-aware UTC |
