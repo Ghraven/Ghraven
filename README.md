@@ -43,11 +43,11 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 > Runs any **Ollama-compatible model** — defaults use sub-8B models so it works on modest hardware, but swap in anything your GPU can handle.
 > Includes structured **debate mode** (3 rounds), **free-talk streaming** via SSE, and **Obsidian memory** integration.
 
-**[🧠 Mini-RAG](https://github.com/GhravenLabs/Mini-RAG)** &nbsp;·&nbsp; `Python` `RAG` `Evals` `Guardrails`
+**[🧠 Mini-RAG](https://mini-rag-ju6l.onrender.com/)** &nbsp;·&nbsp; `Python` `RAG` `Evals` `Guardrails` · [source](https://github.com/GhravenLabs/Mini-RAG)
 > Pure-Python retrieval demo for grounded document question answering.
 > Includes a finance-flavored eval set, retrieval metrics, and guardrail checks so answers stay grounded instead of guessing.
 
-**[🔎 Website QA Auditor](https://github.com/GhravenLabs/Website-QA-Auditor)** &nbsp;·&nbsp; `Python` `CLI` `SEO` `Accessibility`
+**[🔎 Website QA Auditor](https://qa-auditor.onrender.com/)** &nbsp;·&nbsp; `Python` `CLI` `SEO` `Accessibility` · [source](https://github.com/GhravenLabs/Website-QA-Auditor)
 > Zero-dependency website QA tool that checks launch-readiness and produces client-ready reports.
 > Built as practical proof for Webloom-style website QA, deployment rescue, and AI-search readiness services.
 
