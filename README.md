@@ -4,10 +4,10 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ghraven&label=Profile%20views&color=0e75b6&style=flat" alt="ghraven" />
   &nbsp;
-  <a href="https://ghraven.github.io" target="blank">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-ghraven.github.io-0e75b6?style=flat-square&logo=github" alt="Portfolio" /></a>
+  <a href="https://rollycalma.com/" target="blank">
+    <img src="https://img.shields.io/badge/🌐_Portfolio-rollycalma.com-0e75b6?style=flat-square&logo=github" alt="Portfolio" /></a>
   &nbsp;
-  <a href="https://rollycalma.com/" target="blank"><img src="https://img.shields.io/badge/Live_site-services_%2B_demos-2ea44f?style=flat-square" alt="Live site" />
+  <a href="https://rollycalma.com/#services" target="blank"><img src="https://img.shields.io/badge/Services_%2B_proof_demos-live-2ea44f?style=flat-square" alt="Services and proof demos" />
   </a>
 </p>
 <p align="center">
@@ -43,9 +43,13 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 > Runs any **Ollama-compatible model** — defaults use sub-8B models so it works on modest hardware, but swap in anything your GPU can handle.
 > Includes structured **debate mode** (3 rounds), **free-talk streaming** via SSE, and **Obsidian memory** integration.
 
-**[🎬 YT Shorts Autopilot](https://github.com/Ghraven/yt-shorts-autopilot)** &nbsp;·&nbsp; `Python` `FFmpeg` `YouTube API`
-> Automated YouTube Shorts upload pipeline — adds watermark, boosts audio, mixes BGM, then schedules 4 uploads per day at fixed times.
-> Runs on PC startup via Task Scheduler. YouTube publishes at the scheduled times — even while your PC is off.
+**[🧠 Mini-RAG](https://github.com/GhravenLabs/Mini-RAG)** &nbsp;·&nbsp; `Python` `RAG` `Evals` `Guardrails`
+> Pure-Python retrieval demo for grounded document question answering.
+> Includes a finance-flavored eval set, retrieval metrics, and guardrail checks so answers stay grounded instead of guessing.
+
+**[🔎 Website QA Auditor](https://github.com/GhravenLabs/Website-QA-Auditor)** &nbsp;·&nbsp; `Python` `CLI` `SEO` `Accessibility`
+> Zero-dependency website QA tool that checks launch-readiness and produces client-ready reports.
+> Built as practical proof for Webloom-style website QA, deployment rescue, and AI-search readiness services.
 
 **[🎮 Claude Code Solo Studio](https://github.com/Ghraven/Claude-Code-Solo-Studio)** &nbsp;·&nbsp; `Claude Code` `Godot` `Unity`
 > A lightweight Claude Code template for solo game developers.
@@ -185,8 +189,8 @@ I have contributed across AI agent frameworks, SDKs, data infrastructure, and de
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn - Rolly Calma" height="30" width="40" />
   </a>
   &nbsp;
-  <a href="https://ghraven.github.io" target="blank">
-    <img align="center" src="https://img.icons8.com/fluency/48/domain.png" alt="Portfolio - ghraven.github.io" height="30" width="30" />
+  <a href="https://rollycalma.com/" target="blank">
+    <img align="center" src="https://img.icons8.com/fluency/48/domain.png" alt="Portfolio - rollycalma.com" height="30" width="30" />
   </a>
 </p>
 
