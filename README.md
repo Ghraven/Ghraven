@@ -78,7 +78,7 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 
 ### 💬 Ask me about
 
-**Python · Flask · Local LLMs · Ollama · Anthropic Claude API · Multi-agent systems · SSE streaming · FFmpeg · YouTube API · Claude Code · Godot · Game Dev Templates**
+**Python · Flask · Local LLMs · Ollama · Anthropic Claude API · Multi-agent systems · SSE streaming · RAG · evals · Claude Code · Godot · Game Dev Templates**
 
 ### 📫 Reach me at **rolly.calma.0217@gmail.com**
 
@@ -110,7 +110,6 @@ I try to make maintainer review easy: small scoped PRs, clear before/after notes
 
 | Work | Why it matters |
 |---|---|
-| [YouTube Automation Agent provider validation](https://github.com/darkzOGx/youtube-automation-agent/pull/12) | Lets Gemini and other non-OpenAI setup paths pass credential validation without requiring an OpenAI key |
 | [Flowsint selected graph JSON export](https://github.com/reconurge/flowsint/pull/189) | Adds a machine-readable export path for selected investigation nodes and their connecting edges |
 | [Casanovo URL model cache TTL](https://github.com/Noble-Lab/casanovo/pull/653) | Avoids redundant remote HEAD requests when cached URL model weights are still fresh |
 | [Casanovo UTF-8 mzTab/file I/O fixes](https://github.com/Noble-Lab/casanovo/pull/640) ✅ merged | Prevents locale-dependent file errors on Windows/non-UTF-8 systems |
@@ -159,7 +158,6 @@ I have contributed across AI agent frameworks, SDKs, data infrastructure, and de
 | [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) ⭐3.6k | Unit tests ✅ merged · Shared helpers · Refactoring · Docs · Telegram integration guide · LLM providers reference · Snowflake/OpenObserve/OpenSearch tool tests · Early-exit integration validation · Post-signup onboarding page |
 | [Noble-Lab/casanovo](https://github.com/Noble-Lab/casanovo) ⭐191 | Fixed `val_check_interval` float/int · Improved README (grammar, badges, quick start, application area descriptions) · Read YAML configs and write mzTab output with explicit `utf-8` encoding |
 | [IN3PIRE/pn](https://github.com/IN3PIRE/pn) | Added `!uptime` command ✅ merged · Pinned dependencies ✅ merged |
-| [darkzOGx/youtube-automation-agent](https://github.com/darkzOGx/youtube-automation-agent) ⭐1k | Added missing `database/init.js` entrypoint so the existing `npm run db:init` script initializes the SQLite schema successfully · Made setup validation respect the selected AI provider so Gemini-only setups do not require an OpenAI key |
 | [caamer20/Telegram-Drive](https://github.com/caamer20/Telegram-Drive) ⭐3k | Removed committed npm cache artifacts and ignored future `.npm-cache` output to keep Windows checkouts portable · Added a safe theme fallback when `localStorage` is unavailable · Guarded global search against empty Telegram document payloads |
 | [tecnolgd/repoScanner](https://github.com/tecnolgd/repoScanner) | Expanded language detection to 40+ file extensions ✅ merged |
 
