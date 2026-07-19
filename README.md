@@ -100,10 +100,10 @@ My own **[python-utils-toolkit](https://github.com/GhravenLabs/python-utils-tool
 I try to make maintainer review easy: small scoped PRs, clear before/after notes, local verification, and humble follow-up when CI or reviewers ask for changes.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-203-blue?style=flat-square" alt="PRs opened" />
-  <img src="https://img.shields.io/badge/Merged-60-brightgreen?style=flat-square" alt="Merged" />
+  <img src="https://img.shields.io/badge/PRs_opened-205-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/Merged-61-brightgreen?style=flat-square" alt="Merged" />
   <img src="https://img.shields.io/badge/Repos_contributed-30-orange?style=flat-square" alt="Repos contributed" />
-  <img src="https://img.shields.io/badge/Contributed_to_repos_with-1144k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
+  <img src="https://img.shields.io/badge/Contributed_to_repos_with-1155k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
 
 **Selected wins:**
@@ -136,7 +136,7 @@ I have contributed across AI agent frameworks, SDKs, data infrastructure, and de
 
 | Repository | What I worked on |
 |---|---|
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐188k | Replaced deprecated `datetime.utcnow()` in BlueBubbles temp GUID generation with timezone-aware UTC timestamps |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐188k | Replaced deprecated `datetime.utcnow()` in BlueBubbles temp GUID generation with timezone-aware UTC timestamps · Added Retry-After HTTP-date parsing coverage for auth/billing rate limits · Surfaced the local web dashboard quick start in the README |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) ⭐104k | Replaced deprecated naive `datetime.utcnow()` config timestamps with timezone-aware UTC · Wrote generated file-system text files with explicit UTF-8 encoding and switched async disk sync paths to `asyncio.get_running_loop()` · Read CLI command history and local user state files with explicit UTF-8 encoding · Made the news monitor example use explicit UTF-8 JSON I/O and timezone-aware UTC fallback timestamps · Read the WhatsApp scheduler example's messages file with explicit UTF-8 encoding |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) ⭐137k | Fixed `HuggingFaceEndpoint` `_stream` and `_astream` not passing `model=self.model` — streaming always used the wrong default model |
 | [microsoft/autogen](https://github.com/microsoft/autogen) ⭐59k | Added `encoding='utf-8'` to `open()` calls in GAIA benchmark scripts to fix `UnicodeDecodeError` on non-English Windows · Replaced AutoGen Studio websocket `datetime.utcnow()` response timestamps with timezone-aware UTC · Switched AgentChat sync user-input callbacks to `asyncio.get_running_loop()` · Switched async sample input helpers and `FunctionTool` executor paths to `asyncio.get_running_loop()` |
