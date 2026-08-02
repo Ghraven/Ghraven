@@ -100,10 +100,10 @@ My own **[python-utils-toolkit](https://github.com/GhravenLabs/python-utils-tool
 I try to make maintainer review easy: small scoped PRs, clear before/after notes, local verification, and humble follow-up when CI or reviewers ask for changes.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-224-blue?style=flat-square" alt="PRs opened" />
-  <img src="https://img.shields.io/badge/Merged-63-brightgreen?style=flat-square" alt="Merged" />
+  <img src="https://img.shields.io/badge/PRs_opened-225-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/Merged-65-brightgreen?style=flat-square" alt="Merged" />
   <img src="https://img.shields.io/badge/Repos_contributed-28-orange?style=flat-square" alt="Repos contributed" />
-  <img src="https://img.shields.io/badge/Contributed_to_repos_with-1145k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
+  <img src="https://img.shields.io/badge/Contributed_to_repos_with-1175k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
 
 **Selected wins:**
@@ -158,7 +158,7 @@ I have contributed across AI agent frameworks, SDKs, data infrastructure, and de
 | [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) ⭐3.6k | Unit tests ✅ merged · Shared helpers · Refactoring · Docs · Telegram integration guide · LLM providers reference · Snowflake/OpenObserve/OpenSearch tool tests · Early-exit integration validation · Post-signup onboarding page |
 | [Noble-Lab/casanovo](https://github.com/Noble-Lab/casanovo) ⭐194 | Fixed `val_check_interval` float/int · Improved README (grammar, badges, quick start, application area descriptions) · Read YAML configs, MGF scan-index input, and mzTab output with explicit `utf-8` encoding |
 | [IN3PIRE/pn](https://github.com/IN3PIRE/pn) | Added `!uptime` command ✅ merged · Pinned dependencies ✅ merged |
-| [caamer20/Telegram-Drive](https://github.com/caamer20/Telegram-Drive) ⭐3k | Removed committed npm cache artifacts and ignored future `.npm-cache` output to keep Windows checkouts portable · Added a safe theme fallback when `localStorage` is unavailable · Guarded global search against empty Telegram document payloads |
+| [caamer20/Telegram-Drive](https://github.com/caamer20/Telegram-Drive) ⭐4.5k | Removed committed npm cache artifacts and ignored future `.npm-cache` output to keep Windows checkouts portable · Added a safe theme fallback when `localStorage` is unavailable · Guarded global search against empty Telegram document payloads · Hardened external ad-link browser fallbacks with `noopener,noreferrer` |
 | [tecnolgd/repoScanner](https://github.com/tecnolgd/repoScanner) | Expanded language detection to 40+ file extensions ✅ merged |
 
 </details>
