@@ -100,10 +100,10 @@ My own **[python-utils-toolkit](https://github.com/GhravenLabs/python-utils-tool
 I try to make maintainer review easy: small scoped PRs, clear before/after notes, local verification, and humble follow-up when CI or reviewers ask for changes.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-225-blue?style=flat-square" alt="PRs opened" />
-  <img src="https://img.shields.io/badge/Merged-65-brightgreen?style=flat-square" alt="Merged" />
+  <img src="https://img.shields.io/badge/PRs_opened-226-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/Merged-66-brightgreen?style=flat-square" alt="Merged" />
   <img src="https://img.shields.io/badge/Repos_contributed-28-orange?style=flat-square" alt="Repos contributed" />
-  <img src="https://img.shields.io/badge/Contributed_to_repos_with-1175k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
+  <img src="https://img.shields.io/badge/Contributed_to_repos_with-1177k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
 
 **Selected wins:**
@@ -148,7 +148,7 @@ I have contributed across AI agent frameworks, SDKs, data infrastructure, and de
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) ⭐17k | Added explicit `encoding="utf-8"` to both `open()` call sites in `scripts/scrub_cassette.py` — the VCR cassette redaction script now round-trips multilingual test fixtures safely on Windows / non-utf-8 locales · Switched the chat app example and tenacity async timing test to `asyncio.get_running_loop()` · Proposed explicit UTF-8 writes for remaining MCP and dataset test fixtures |
 | [chroma-core/chroma](https://github.com/chroma-core/chroma) ⭐28k | Fixed `collection.modify(metadata=...)` replacing entire metadata dict instead of merging · Narrowed bare `# type: ignore` to `# type: ignore[misc]` on tenacity `@retry` · Added explicit `encoding="utf-8"` to 7 text-mode `open()` call sites in `chromadb` · Switched the async FastAPI client cache to `asyncio.get_running_loop()` · Read/write the product telemetry user-id file, migration SQL files, and generated Python reference docs with explicit UTF-8 encoding |
 | [tw93/Pake](https://github.com/tw93/Pake) ⭐60k | Hardened CLI validation by rejecting malformed, non-finite, and blank numeric option values before they reach app configuration · Made saved zoom shortcuts fall back from malformed local storage values instead of passing `NaN` to native zoom handling |
-| [reconurge/flowsint](https://github.com/reconurge/flowsint) ⭐6.8k | Replaced naive `datetime.utcnow()` service timestamps with timezone-aware UTC values in analysis, chat, flow services, scan defaults, core auth expiry, log cutoffs, and Scamalytics fraud-score updates · Read YAML templates with explicit UTF-8 encoding |
+| [reconurge/flowsint](https://github.com/reconurge/flowsint) ⭐7.5k | Replaced naive `datetime.utcnow()` service timestamps with timezone-aware UTC values in analysis, chat, flow services, scan defaults, core auth expiry, log cutoffs, and Scamalytics fraud-score updates · Read YAML templates with explicit UTF-8 encoding · Hardened navbar external links with `noopener noreferrer` |
 | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) ⭐82k | Read WSL `/proc/version` with explicit UTF-8 handling, switched the health endpoint timestamp to timezone-aware UTC, removed deprecated `datetime.utcnow()` from document relative-time formatting, and updated skill frontmatter timestamps to use timezone-aware UTC |
 | [ollama/ollama-python](https://github.com/ollama/ollama-python) ⭐10k | Added `client.exists()` · Exposed `__version__` and `version()` · Added `Audio` field to `Message` · Added `__enter__`/`__aenter__` context manager support · Fixed `convert_function_to_tool` incorrectly listing default-value params in `required` · Replaced deprecated `datetime.utcnow()` in `web_search_gpt_oss_helper` example (5 sites) |
 | [voxel51/fiftyone](https://github.com/voxel51/fiftyone) ⭐10k | Replaced deprecated `datetime.utcnow()` in execution-store timestamp helpers while preserving naive UTC persistence shape · Replaced deprecated `utcfromtimestamp()` in timestamp conversion while preserving naive UTC defaults · Migrated brush import toward `label_studio_sdk` while preserving the archived converter fallback · Added `train_extra` split to Cityscapes loader |
