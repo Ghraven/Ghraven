@@ -100,7 +100,7 @@ My own **[python-utils-toolkit](https://github.com/GhravenLabs/python-utils-tool
 I try to make maintainer review easy: small scoped PRs, clear before/after notes, local verification, and humble follow-up when CI or reviewers ask for changes.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-229-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/PRs_opened-230-blue?style=flat-square" alt="PRs opened" />
   <img src="https://img.shields.io/badge/Merged-70-brightgreen?style=flat-square" alt="Merged" />
   <img src="https://img.shields.io/badge/Repos_contributed-28-orange?style=flat-square" alt="Repos contributed" />
   <img src="https://img.shields.io/badge/Contributed_to_repos_with-1182k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
@@ -114,6 +114,7 @@ I try to make maintainer review easy: small scoped PRs, clear before/after notes
 | [Casanovo URL model cache TTL](https://github.com/Noble-Lab/casanovo/pull/653) | Avoids redundant remote HEAD requests when cached URL model weights are still fresh |
 | [Casanovo UTF-8 mzTab/file I/O fixes](https://github.com/Noble-Lab/casanovo/pull/640) ✅ merged | Prevents locale-dependent file errors on Windows/non-UTF-8 systems |
 | [CrewAI JSON checkpoint UTF-8 persistence](https://github.com/crewAIInc/crewAI/pull/6858) | Makes local JSON checkpoint restore/persist behavior consistent across non-UTF-8 platforms |
+| [Burr token-cost refresh hardening](https://github.com/apache/burr/pull/876) | Adds bounded HTTP fetching, explicit HTTP errors, and UTF-8 output for the generated model-cost data |
 | [Mem0 metadata preservation fix](https://github.com/mem0ai/mem0/pull/5179) | Stops memory updates from silently dropping existing custom metadata |
 | [LangChain `HuggingFaceEndpoint` streaming fix](https://github.com/langchain-ai/langchain) | `_stream`/`_astream` never passed `model=self.model` — streaming silently used the wrong default model |
 | [OpenAI Python log redaction hardening](https://github.com/openai/openai-python/pull/3200) | Improves API-key redaction when sensitive headers appear in formatted debug strings |
