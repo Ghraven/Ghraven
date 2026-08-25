@@ -101,7 +101,7 @@ I try to make maintainer review easy: small scoped PRs, clear before/after notes
 
 <p align="left">
   <img src="https://img.shields.io/badge/PRs_opened-239-blue?style=flat-square" alt="PRs opened" />
-  <img src="https://img.shields.io/badge/Merged-75-brightgreen?style=flat-square" alt="Merged" />
+  <img src="https://img.shields.io/badge/Merged-76-brightgreen?style=flat-square" alt="Merged" />
   <img src="https://img.shields.io/badge/Repos_contributed-30-orange?style=flat-square" alt="Repos contributed" />
   <img src="https://img.shields.io/badge/Contributed_to_repos_with-1191k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
