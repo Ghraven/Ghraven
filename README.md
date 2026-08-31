@@ -41,15 +41,15 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 > A web app where you @mention AI agents to bring them into a live group chat.
 > Built end-to-end: Flask backend, SSE streaming, local model routing, Claude API integration, debate mode, and persistent Obsidian memory.
 > Runs any **Ollama-compatible model** — defaults use sub-8B models so it works on modest hardware, but swap in anything your GPU can handle.
-> Includes structured **debate mode** (3 rounds), **free-talk streaming** via SSE, and **Obsidian memory** integration.
+> Includes structured **debate mode** (3 rounds), **free-talk streaming** via SSE, **Obsidian memory**, and research-to-action delivery drafts.
 
 **[🧠 Mini-RAG](https://mini-rag-ju6l.onrender.com/)** &nbsp;·&nbsp; `Python` `RAG` `Evals` `Guardrails` · [source](https://github.com/GhravenLabs/Mini-RAG)
 > Pure-Python retrieval demo for grounded document question answering.
-> Includes a finance-flavored eval set, retrieval metrics, and guardrail checks so answers stay grounded instead of guessing.
+> Includes a finance-flavored eval set, retrieval metrics, and evidence-term guardrail checks so answers stay grounded instead of guessing.
 
 **[🔎 Website QA Auditor](https://qa-auditor.onrender.com/)** &nbsp;·&nbsp; `Python` `CLI` `SEO` `Accessibility` · [source](https://github.com/GhravenLabs/Website-QA-Auditor)
 > Zero-dependency website QA tool that checks launch-readiness and produces client-ready reports.
-> Built as practical proof for Webloom-style website QA, deployment rescue, and AI-search readiness services.
+> Built as practical proof for Webloom-style website QA, deployment rescue, and AI-search readiness services, including canonical/indexability/structured-data checks.
 
 **[🎮 Claude Code Solo Studio](https://github.com/Ghraven/Claude-Code-Solo-Studio)** &nbsp;·&nbsp; `Claude Code` `Godot` `Unity`
 > A lightweight Claude Code template for solo game developers.
@@ -61,7 +61,7 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 > Each repo includes a screenshot, case study, smoke-check workflow, and clear README so reviewers can inspect the build quickly.
 
 **[🛠️ Python Utils Toolkit](https://github.com/GhravenLabs/python-utils-toolkit)** &nbsp;·&nbsp; `Python` `stdlib`
-> 15 production-ready utility modules — retry with backoff, async rate limiter, TTL cache, HMAC signing helpers, file I/O, and more.
+> 16 production-ready utility modules — retry with backoff, async rate limiter, TTL cache, HMAC signing helpers, privacy-safe redaction, file I/O, and more.
 > Pure Python, zero heavy dependencies. Built iteratively with **16 PRs merged** — full test suite, versioned releases, and changelogs.
 > Used internally across the agent room and automation pipelines.
 
