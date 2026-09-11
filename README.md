@@ -27,6 +27,8 @@ Now I build real AI tools — local LLM apps, automation pipelines, multi-agent 
 
 I'm looking for junior Python, AI automation, developer tooling, or open-source-adjacent roles where I can build practical tools, write tests, and keep improving inside a strong engineering team.
 
+**Start here if you're reviewing my work:** [Portfolio](https://rollycalma.com/) · [Proof gallery](https://ghravenlabs.github.io/) · [Reviewer guide](docs/PROFILE-REVIEWER-GUIDE.md) · [Contribution proof notes](docs/CONTRIBUTION-PROOF.md)
+
 ---
 
 ### 🤖 What I build
@@ -125,6 +127,8 @@ I try to make maintainer review easy: small scoped PRs, clear before/after notes
 - Test locally before pushing, then follow up when CI or reviewers find issues.
 - Look for practical fixes: deprecations, encoding bugs, async edge cases, schema correctness, and missing tests.
 - Stay humble in review and make maintainer work easier where I can.
+
+**AI assistance transparency:** I use AI-assisted development tools for drafting, search, refactoring, and review support. I review, test, commit, and take responsibility for the final work myself.
 
 **Contribution coverage:**
 
