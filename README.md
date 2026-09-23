@@ -102,7 +102,7 @@ I try to make maintainer review easy: small scoped PRs, clear before/after notes
 
 <p align="left">
   <img src="https://img.shields.io/badge/PRs_opened-269-blue?style=flat-square" alt="PRs opened" />
-  <img src="https://img.shields.io/badge/Merged-81-brightgreen?style=flat-square" alt="Merged" />
+  <img src="https://img.shields.io/badge/Merged-82-brightgreen?style=flat-square" alt="Merged" />
   <img src="https://img.shields.io/badge/Repos_contributed-30-orange?style=flat-square" alt="Repos contributed" />
   <img src="https://img.shields.io/badge/Contributed_to_repos_with-1234k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
@@ -111,6 +111,7 @@ I try to make maintainer review easy: small scoped PRs, clear before/after notes
 
 | Work | Why it matters |
 |---|---|
+| [OpenAI Python async audio helpers](https://github.com/openai/openai-python/pull/3289) ✅ merged | Uses the running event loop inside async helpers; maintainers verified that audio-helper behavior was preserved |
 | [Flowsint selected graph JSON export](https://github.com/reconurge/flowsint/pull/189) | Adds a machine-readable export path for selected investigation nodes and their connecting edges |
 | [Casanovo URL model cache TTL](https://github.com/Noble-Lab/casanovo/pull/653) | Avoids redundant remote HEAD requests when cached URL model weights are still fresh |
 | [Casanovo UTF-8 mzTab/file I/O fixes](https://github.com/Noble-Lab/casanovo/pull/640) ✅ merged | Prevents locale-dependent file errors on Windows/non-UTF-8 systems |
